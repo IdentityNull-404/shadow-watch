@@ -24,6 +24,30 @@
     ]
   },
   {
+    "id": "apple-multiservice-outage-2026-11-17",
+    "date": "2026-11-17",
+    "title": "Apple cloud services experience widespread outage",
+    "organization": "Apple iCloud / App Store / Apple Music / AppleCare",
+    "sector": "Cloud",
+    "type": "Service outage",
+    "severity": "high",
+    "summary": "Apple reported November 17 disruption affecting iCloud account sign-in, App Store, Apple Music and AppleCare services. Some users experienced sign-in and activation failures. Coverage also noted Marriott hotel app/website problems on the same day. Apple subsequently attributed its outage to an internal update, not a confirmed cyber intrusion.",
+    "source": "https://apnews.com/article/ff097d2a0bec767baf38a1bd8eff5829",
+    "sourceName": "Associated Press (republished by ClickOnDetroit)",
+    "confidence": "High (Apple-confirmed disruption); cause based on company explanation",
+    "connection": "Occurs amid the November Microsoft, FAA, banking, United Airlines and NSA disruptions. Timing is worth examining but no public forensic evidence currently establishes a shared malicious cause.",
+    "additionalSources": [
+      {
+        "name": "ClickOnDetroit — Apple joins a parade of technology hiccups",
+        "url": "https://www.clickondetroit.com/business/2026/11/17/apple-joins-a-parade-of-technology-hiccups-in-recent-days/"
+      },
+      {
+        "name": "Apple outage: reported internal update explanation",
+        "url": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/"
+      }
+    ]
+  },
+  {
     "id": "shadow-1",
     "date": "2026-11-16",
     "title": "Optimizely scripts compromised across 178 organizations",
