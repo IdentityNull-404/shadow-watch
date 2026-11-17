@@ -1,4 +1,377 @@
 {
-  "updated_at": null,
-  "items": []
+  "updated_at": "2026-11-17T22:27:06.175330+00:00",
+  "sources_available": 4,
+  "sources_total": 4,
+  "items": [
+    {
+      "id": "story-6496df90b5f7d21d",
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T21:27:17+00:00",
+      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-657bcb8ff72ed9ef",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T20:51:21+00:00",
+      "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-fef21d3c1e2e4405",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T19:24:07+00:00",
+      "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-0434a2f4d8b692da",
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T18:04:15+00:00",
+      "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-e5492f9867506c17",
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-17T15:17:36+00:00",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw ",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-d766d63f4287441c",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T15:01:11+00:00",
+      "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-76605a69ba15f29c",
+      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-17T14:55:30+00:00",
+      "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-637f4ce749d09abf",
+      "title": "Access Dental Management Data Breach Impacts Over 340,000",
+      "url": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-17T12:59:04+00:00",
+      "summary": "Hackers breached Access Dental’s network and stole personal, health, and insurance information. The post Access Dental Management Data Breach Impacts Over 340,000 appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-565f1d580b46f3ea",
+      "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+      "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-17T12:28:45+00:00",
+      "summary": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-88d6d55f0b06ce11",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-17T12:25:06+00:00",
+      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-91475641f52fb30d",
+      "title": "Siemens Industrial Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "publisher": "CISA",
+      "date": "2026-11-17T12:00:00+00:00",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-3b573666de1648f8",
+      "title": "Siemens Industrial Automation Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+      "publisher": "CISA",
+      "date": "2026-11-17T12:00:00+00:00",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-37902359fb183e15",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "publisher": "CISA",
+      "date": "2026-11-17T12:00:00+00:00",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a fre",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-1de9be8128d9ed42",
+      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
+      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-17T10:22:20+00:00",
+      "summary": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-37dfb9dd86d3051a",
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T08:35:42+00:00",
+      "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-3e6e491ab07fd893",
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T07:25:44+00:00",
+      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-64d59e5e3ac8caa0",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-17T07:12:13+00:00",
+      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today. Visitors to sites run by at least 178 organizations, including CNN, the B",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-97e2e9163086c15c",
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-17T02:12:17+00:00",
+      "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and paymen",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-a863217f46213f94",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-16T14:00:00+00:00",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intru",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-e021b9febf9ed0b7",
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-16T13:27:20+00:00",
+      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making b",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-c4086de05142b1d9",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-16T12:33:18+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory ",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-5ceeaae8e26f5eb8",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-16T09:32:57+00:00",
+      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads. Central to the intrusion is a toolkit called SANSAR, a R",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-d32b5f97fc676bf8",
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-13T14:28:58+00:00",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenam",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-7b5dacba886b8db5",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "publisher": "CISA",
+      "date": "2026-11-13T12:00:00+00:00",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-7f22b6cf300a8942",
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-13T11:10:40+00:00",
+      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources i",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-d25f99854f909af5",
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-13T10:55:03+00:00",
+      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stol",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-69d1a63879fd152b",
+      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-13T08:05:49+00:00",
+      "summary": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS to deploy a backdoor called TSGA.",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-5f110aa5732b2dc4",
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-13T05:43:28+00:00",
+      "summary": "N-able on Thursday said it's taking additional precautions in the wake of public disclosure of a new set of flaws tracked as 4EverAble2Shell and Agent2Shell. \"We are restricting certain N-central features and integrations,\" the company said in a Thursday updat",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-c892fb218fc51be1",
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-12T17:50:27+00:00",
+      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It ",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-9d96703e2366c2eb",
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-12T15:15:40+00:00",
+      "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-0c7b196fe26ffd91",
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-12T13:08:28+00:00",
+      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG),",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-f45d3069b40c902e",
+      "title": "Siemens Desigo, Gridscale",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+      "publisher": "CISA",
+      "date": "2026-11-12T12:00:00+00:00",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-cd877208a9d9554b",
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-12T11:51:31+00:00",
+      "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Mater",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-2d6f349525d67746",
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-12T11:33:15+00:00",
+      "summary": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a ma",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-d8637e378806af0b",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-11T14:01:00+00:00",
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 20",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-f4b34728a6f8e326",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "publisher": "CISA",
+      "date": "2026-11-10T12:00:00+00:00",
+      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracud",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-b13d0e78edd1a3e7",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "publisher": "CISA",
+      "date": "2026-11-09T12:00:00+00:00",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnera",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    }
+  ]
 }
