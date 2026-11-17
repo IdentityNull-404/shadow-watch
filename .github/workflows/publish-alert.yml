@@ -1,0 +1,67 @@
+name: Publish reviewed alert
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Short incident title'
+        required: true
+        type: string
+      organization:
+        description: 'Organization or system involved'
+        required: true
+        type: string
+      date:
+        description: 'Incident or disclosure date (YYYY-MM-DD)'
+        required: true
+        type: string
+      source:
+        description: 'Original HTTPS news / official source URL'
+        required: true
+        type: string
+      classification:
+        description: 'Evidence status'
+        required: true
+        default: 'Developing report'
+        type: choice
+        options:
+          - Developing report
+          - Service outage
+          - Ransomware claim
+          - Confirmed cyberattack
+      summary:
+        description: 'Factual summary; do not include unsupported claims'
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: shadow-watch-ledger
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate and merge incident
+        env:
+          INCIDENT_TITLE: ${{ inputs.title }}
+          INCIDENT_ORG: ${{ inputs.organization }}
+          INCIDENT_DATE: ${{ inputs.date }}
+          INCIDENT_SOURCE: ${{ inputs.source }}
+          INCIDENT_TYPE: ${{ inputs.classification }}
+          INCIDENT_SUMMARY: ${{ inputs.summary }}
+        run: python scripts/publish_alert.py
+      - name: Commit reviewed record
+        run: |
+          git config user.name "shadow-watch-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/incidents.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: publish reviewed incident"
+            git push
+          fi
