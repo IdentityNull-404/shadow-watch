@@ -56,20 +56,6 @@
     "connection": "Distinct incident from November 13 FAA ground stop."
   },
   {
-    "id": "microsoft-outage-pir-2026",
-    "date": "2026-11-16",
-    "title": "Microsoft releases technical findings on November 12 outage",
-    "organization": "Microsoft 365 / Exchange Online",
-    "sector": "Cloud",
-    "type": "Service outage",
-    "severity": "high",
-    "summary": "Microsoft's post-incident findings described a latent software defect compounded by traffic changes and reduced server capacity. Outage affected services globally over November 12–13. Investigation reported technical failure rather than cyber or AI-agent activity.",
-    "source": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
-    "sourceName": "Ars Technica / Microsoft post-incident report",
-    "confidence": "High (vendor post-incident findings)",
-    "connection": "Follow-up to existing November 12 Microsoft 365 ledger record; not a separate new outage."
-  },
-  {
     "id": "shadow-4",
     "date": "2026-11-13",
     "title": "FAA telecommunications failure causes ground stop",
@@ -105,11 +91,11 @@
     "sector": "Cloud",
     "type": "Service outage",
     "severity": "high",
-    "summary": "Users reported disruption to multiple Microsoft 365 services. Available reporting describes internal software/network faults rather than a verified compromise.",
-    "source": "https://www.fox5atlanta.com/news/series-recent-outages-disruptions-concerning-georgians",
-    "sourceName": "FOX 5 Atlanta",
-    "confidence": "Medium (reported service disruption)",
-    "connection": "No publicly established common malicious cause with FAA, banking or NSA outages."
+    "summary": "November 12–13 global Microsoft 365 and Exchange Online outage disrupted Outlook, Teams, Copilot and related services. A subsequent post-incident report described an older software defect combined with traffic changes and limited server capacity. UK government, NHS, police and Parliament were among affected users.",
+    "source": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
+    "sourceName": "Reuters",
+    "confidence": "High (outage and vendor post-incident analysis)",
+    "connection": "Direct service dependency links the Microsoft outage with UK government and public-service disruptions. A phishing campaign separately exploited the outage as a lure; it is not evidence the attackers caused the service outage."
   },
   {
     "id": "uk-parliament-microsoft-2026",
