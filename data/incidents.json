@@ -112,6 +112,20 @@
     "connection": "Direct shared dependency on Microsoft 365 with the global outage. Distinct from Gibraltar's earlier confirmed unauthorized cloud access."
   },
   {
+    "id": "maersk-2026",
+    "date": "2026-11-12",
+    "title": "Maersk confirms breach through legacy logistics platform",
+    "organization": "Maersk",
+    "sector": "Supply chain",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Maersk acknowledged unauthorized access involving a legacy platform acquired with LF Logistics; WhiteArmor claimed responsibility and ransom demands, while wider infrastructure disruption was not reported.",
+    "source": "https://www.seatrade-maritime.com/containers/maersk-hit-by-ransomware-cyber-attack",
+    "sourceName": "Seatrade Maritime",
+    "confidence": "High (confirmed breach); actor identity based on claim",
+    "connection": "Supply-chain and legacy-system exposure; no publicly proven shared attacker with other November incidents."
+  },
+  {
     "id": "uk-gibraltar-cloud-2026",
     "date": "2026-11-09",
     "title": "Gibraltar government confirms unauthorized access to Microsoft cloud environment",
@@ -126,6 +140,20 @@
     "connection": "Confirmed link to Microsoft's cloud services and incident-response support, NOT evidence that this earlier compromise caused the separate November 12 Microsoft 365 global outage."
   },
   {
+    "id": "qpl-2026",
+    "date": "2026-11-04",
+    "title": "Ransomware disrupts services at 66 Queens Public Library branches",
+    "organization": "Queens Public Library",
+    "sector": "Government",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Queens Public Library confirmed a ransomware attack that interrupted public computers, Wi-Fi, checkouts and digital systems across its branch network; recovery continued into mid-November.",
+    "source": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+    "sourceName": "The Record",
+    "confidence": "High (victim-confirmed ransomware)",
+    "connection": "No documented link to the Microsoft, FAA or NSA outages."
+  },
+  {
     "id": "uk-php-services-2026",
     "date": "2026-11-02",
     "title": "UK government clarifies October PHP vulnerability service shutdowns",
@@ -138,5 +166,19 @@
     "sourceName": "UK Parliament written answer",
     "confidence": "High (official account); initial disruption in October",
     "connection": "Separate vulnerability-response event, not a proven intrusion into UK central-government systems."
+  },
+  {
+    "id": "barracuda-2026",
+    "date": "2026-11-01",
+    "title": "Stolen third-party access key leads to 44-hour cloud intrusion",
+    "organization": "Barracuda Networks",
+    "sector": "Supply chain",
+    "type": "Confirmed cyberattack",
+    "severity": "critical",
+    "summary": "From November 1–2 an attacker used a stale cloud key previously shared with an AI vendor to traverse approximately 10 cloud accounts, reach stored secrets and Kubernetes infrastructure. Barracuda reported behavior consistent with ARTEX; victim attribution remains unknown.",
+    "source": "https://blog.barracuda.com/2026/11/11/anatomy-of-a-machine-speed-intrusion",
+    "sourceName": "Barracuda CISO incident report",
+    "confidence": "High (firsthand forensic disclosure)",
+    "connection": "Confirmed supplier credential dependency. No validated indicator ties this intrusion to the global Microsoft service outage."
   }
 ]
