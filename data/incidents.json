@@ -11,7 +11,7 @@
     "source": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
     "sourceName": "Associated Press",
     "confidence": "High (outage); cause according to NSA",
-    "connection": "TMZ drew attention to the timing of Microsoft, FAA, banking and NSA disruptions, and reported Senator Josh Hawley's concern about a possible coordinated attack. Those are reporting and political scrutiny, not forensic proof of a common actor. The NSA attributed the disruption to scheduled maintenance; no shared malicious indicators publicly established.",
+    "connection": "TMZ drew attention to the timing of Microsoft, FAA, banking and NSA disruptions, and reported Senator Josh Hawley's concern about a possible coordinated attack. Those are reporting and political scrutiny, not forensic proof of a common actor. The NSA attributed the disruption to scheduled maintenance; no shared malicious indicators publicly established. November 17 reporting quotes the Director of National Intelligence saying the recent disruptions were not coordinated or caused by a nation-state; this is an official assessment, not independently published forensic evidence.",
     "additionalSources": [
       {
         "name": "TMZ — NSA outage and national disruptions (Nov. 17)",
@@ -20,6 +20,10 @@
       {
         "name": "TMZ — Sen. Hawley questions possible coordination (Nov. 17)",
         "url": "https://www.tmz.com/2026/11/17/josh-hawley-fears-cyberattack-behind-massive-outages/"
+      },
+      {
+        "name": "AP — NSA maintenance outage and national intelligence assessment, Nov. 17",
+        "url": "https://apnews.com/article/22dc6be1bf1d1f5f86a7167f016e9526"
       }
     ]
   },
@@ -44,6 +48,10 @@
       {
         "name": "Apple outage: reported internal update explanation",
         "url": "https://www.macrumors.com/2026/11/17/apple-outage-internal-update/"
+      },
+      {
+        "name": "Reuters — Apple says internal update caused outage, Nov. 17",
+        "url": "https://www.reuters.com/business/retail-consumer/apple-works-restore-services-after-outage-caused-by-internal-update-2026-11-17/"
       }
     ]
   },
@@ -129,7 +137,13 @@
     "source": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
     "sourceName": "FAA",
     "confidence": "High (outage)",
-    "connection": "No matching compromise indicators publicly demonstrated for other incidents."
+    "connection": "No matching compromise indicators publicly demonstrated for other incidents.",
+    "additionalSources": [
+      {
+        "name": "Reuters — FAA suspends Juniper router installations, Nov. 17",
+        "url": "https://www.reuters.com/world/us/faa-halts-juniper-router-installations-after-nationwide-flight-disruptions-2026-11-17/"
+      }
+    ]
   },
   {
     "id": "microsoft-phishing-2026",
