@@ -48,6 +48,20 @@
     ]
   },
   {
+    "id": "equinor-attack-2026-11-17",
+    "date": "2026-11-17",
+    "title": "Equinor confirms ongoing attack against IT systems",
+    "organization": "Equinor",
+    "sector": "Energy",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation.",
+    "source": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack",
+    "sourceName": "Equinor official statement",
+    "confidence": "High (victim-confirmed attack); attacker attribution unknown",
+    "connection": "No verified technical connection to the Microsoft, FAA, banking, Apple or NSA disruptions. Important critical-infrastructure development."
+  },
+  {
     "id": "shadow-1",
     "date": "2026-11-16",
     "title": "Optimizely scripts compromised across 178 organizations",
