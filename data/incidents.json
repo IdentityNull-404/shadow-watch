@@ -56,6 +56,20 @@
     "connection": "Distinct incident from November 13 FAA ground stop."
   },
   {
+    "id": "microsoft-outage-pir-2026",
+    "date": "2026-11-16",
+    "title": "Microsoft releases technical findings on November 12 outage",
+    "organization": "Microsoft 365 / Exchange Online",
+    "sector": "Cloud",
+    "type": "Service outage",
+    "severity": "high",
+    "summary": "Microsoft's post-incident findings described a latent software defect compounded by traffic changes and reduced server capacity. Outage affected services globally over November 12–13. Investigation reported technical failure rather than cyber or AI-agent activity.",
+    "source": "https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/",
+    "sourceName": "Ars Technica / Microsoft post-incident report",
+    "confidence": "High (vendor post-incident findings)",
+    "connection": "Follow-up to existing November 12 Microsoft 365 ledger record; not a separate new outage."
+  },
+  {
     "id": "shadow-4",
     "date": "2026-11-13",
     "title": "FAA telecommunications failure causes ground stop",
@@ -70,6 +84,20 @@
     "connection": "No matching compromise indicators publicly demonstrated for other incidents."
   },
   {
+    "id": "microsoft-phishing-2026",
+    "date": "2026-11-13",
+    "title": "Coordinated phishing campaign exploits Microsoft 365 outage",
+    "organization": "Microsoft 365 impersonation campaign",
+    "sector": "Cloud",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Microsoft Threat Intelligence observed a high-volume malicious phishing campaign using fabricated outage/service-health emails and fraudulent prompts to restore held messages. Intent was assessed as credential theft; Microsoft did not confirm successful credential submission or downstream compromise.",
+    "source": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+    "sourceName": "Microsoft Threat Intelligence",
+    "confidence": "High (observed phishing campaign); no confirmed credential capture",
+    "connection": "Confirmed opportunistic exploitation of the widely reported Microsoft service outage, not evidence that phishing actors caused that outage."
+  },
+  {
     "id": "shadow-5",
     "date": "2026-11-12",
     "title": "Microsoft 365 enterprise service disruption",
@@ -82,5 +110,47 @@
     "sourceName": "FOX 5 Atlanta",
     "confidence": "Medium (reported service disruption)",
     "connection": "No publicly established common malicious cause with FAA, banking or NSA outages."
+  },
+  {
+    "id": "uk-parliament-microsoft-2026",
+    "date": "2026-11-12",
+    "title": "Microsoft 365 outage disrupts UK government, NHS, police and Parliament",
+    "organization": "UK government / public services",
+    "sector": "Government",
+    "type": "Service outage",
+    "severity": "critical",
+    "summary": "During November 12–13 Microsoft 365 disruption, UK public-sector users experienced failures involving email and other productivity systems. UK Parliament, NHS services and Metropolitan Police operations reported impacts. Emergency and other critical functions remained operational according to the government.",
+    "source": "https://hansard.parliament.uk/commons/2026-11-16/debates/43bea62c-0833-40f0-8666-0a052212faf3/CommonsChamber",
+    "sourceName": "UK Parliament — ministerial statement",
+    "confidence": "High (on-record ministerial statement)",
+    "connection": "Direct shared dependency on Microsoft 365 with the global outage. Distinct from Gibraltar's earlier confirmed unauthorized cloud access."
+  },
+  {
+    "id": "uk-gibraltar-cloud-2026",
+    "date": "2026-11-09",
+    "title": "Gibraltar government confirms unauthorized access to Microsoft cloud environment",
+    "organization": "Government of Gibraltar",
+    "sector": "Government",
+    "type": "Confirmed cyberattack",
+    "severity": "critical",
+    "summary": "Disclosed November 9, with intrusion occurring weeks earlier. Government officials reported unauthorized access to cloud services including Outlook, Teams, SharePoint and OneDrive. Microsoft alerted authorities; the UK NCSC assisted investigations. Extent of personal data exposure was under investigation.",
+    "source": "https://www.gbc.gi/news/there-have-been-attempts-to-hack-the-governments-it-cloud-system-government-confirms",
+    "sourceName": "GBC News / Government statement",
+    "confidence": "High (officially acknowledged unauthorized access)",
+    "connection": "Confirmed link to Microsoft's cloud services and incident-response support, NOT evidence that this earlier compromise caused the separate November 12 Microsoft 365 global outage."
+  },
+  {
+    "id": "uk-php-services-2026",
+    "date": "2026-11-02",
+    "title": "UK government clarifies October PHP vulnerability service shutdowns",
+    "organization": "UK central government / NCSC",
+    "sector": "Government",
+    "type": "Service outage",
+    "severity": "medium",
+    "summary": "On November 2 the UK government clarified that several public-facing services were taken offline in October as a precaution against critical PHP vulnerabilities. It reported no confirmed government website compromises from the vulnerability. Included as November follow-up to an October event.",
+    "source": "https://questions-statements.parliament.uk/written-questions/detail/2026-10-22/HL4453",
+    "sourceName": "UK Parliament written answer",
+    "confidence": "High (official account); initial disruption in October",
+    "connection": "Separate vulnerability-response event, not a proven intrusion into UK central-government systems."
   }
 ]
