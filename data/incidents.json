@@ -140,6 +140,20 @@
     "connection": "Confirmed link to Microsoft's cloud services and incident-response support, NOT evidence that this earlier compromise caused the separate November 12 Microsoft 365 global outage."
   },
   {
+    "id": "rotstein-shiffman-qilin-2026",
+    "date": "2026-11-06",
+    "title": "Qilin ransomware group lists Rotstein & Shiffman as alleged victim",
+    "organization": "Rotstein & Shiffman",
+    "sector": "Legal",
+    "type": "Ransomware claim",
+    "severity": "high",
+    "summary": "Ransomware tracking services recorded a Qilin leak-site claim naming the law firm on November 6, 2026. The allegation is not independently verified. No public confirmation was located that systems were encrypted, that documents were exfiltrated, or that client records were exposed. This is a threat-actor claim, not a confirmed breach.",
+    "source": "https://vulnpocalypse.dev/advisories/qilin-ransomware-group-claims-rotstein-shiffman-on-its-leak-site/",
+    "sourceName": "Vulnpocalypse / RansomLook claim tracking",
+    "confidence": "Low for breach; medium-high for existence of public threat-actor listing",
+    "connection": "No established technical link to November Microsoft, FAA, NSA, banking, or Optimizely events. Monitor official firm disclosures and independent forensic validation."
+  },
+  {
     "id": "qpl-2026",
     "date": "2026-11-04",
     "title": "Ransomware disrupts services at 66 Queens Public Library branches",
