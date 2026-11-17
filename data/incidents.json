@@ -11,7 +11,17 @@
     "source": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
     "sourceName": "Associated Press",
     "confidence": "High (outage); cause according to NSA",
-    "connection": "No validated public technical connection with FAA, Microsoft, Chase, or Optimizely."
+    "connection": "TMZ drew attention to the timing of Microsoft, FAA, banking and NSA disruptions, and reported Senator Josh Hawley's concern about a possible coordinated attack. Those are reporting and political scrutiny, not forensic proof of a common actor. The NSA attributed the disruption to scheduled maintenance; no shared malicious indicators publicly established.",
+    "additionalSources": [
+      {
+        "name": "TMZ — NSA outage and national disruptions (Nov. 17)",
+        "url": "https://www.tmz.com/2026/11/17/nsa-classified-communications-network-outage/"
+      },
+      {
+        "name": "TMZ — Sen. Hawley questions possible coordination (Nov. 17)",
+        "url": "https://www.tmz.com/2026/11/17/josh-hawley-fears-cyberattack-behind-massive-outages/"
+      }
+    ]
   },
   {
     "id": "shadow-1",
