@@ -78,16 +78,30 @@
   {
     "id": "shadow-2",
     "date": "2026-11-16",
-    "title": "Chase processing incident affects transactions",
-    "organization": "JPMorgan Chase",
+    "title": "Multi-bank transaction disruptions: Chase, Bank of America, Wells Fargo, U.S. Bank and others",
+    "organization": "JPMorgan Chase / U.S. banking network",
     "sector": "Financial",
     "type": "Service outage",
     "severity": "high",
-    "summary": "Banking transaction disruption affected payments and transfers, reportedly with downstream effects at other banks. Cyber intrusion has not been demonstrated.",
-    "source": "https://www.fox5atlanta.com/news/series-recent-outages-disruptions-concerning-georgians",
-    "sourceName": "FOX 5 Atlanta",
-    "confidence": "Medium (reported service disruption)",
-    "connection": "Cross-bank processing dependencies can propagate outages; not evidence of one attacker."
+    "summary": "On November 16, customers reported problems involving JPMorgan Chase, Bank of America, Wells Fargo, U.S. Bank, Truist, Capital One and Zelle transfers; some reports also named Citigroup and other institutions. Chase acknowledged a software-related transaction-processing delay that could affect transfers to or from other banks. Reports from customers do not establish that every listed institution's internal systems went down. Bank of America and Citigroup said their own banking services were operating, and some Zelle disruptions reflected dependent transfers rather than a confirmed network-wide Zelle outage.",
+    "source": "https://www.reuters.com/legal/transactional/downdetector-reports-outages-major-us-banks-2026-11-16/",
+    "sourceName": "Reuters",
+    "confidence": "High for Chase processing issue; reported customer impact at other institutions, without confirmation of independent bank outages",
+    "connection": "Confirmed transaction-level dependency: Chase processing delays propagated to transfers involving other institutions. Do not classify these as separate cyber intrusions or infer that Zelle's core network itself was compromised. No publicly demonstrated technical connection to Microsoft, FAA or NSA.",
+    "additionalSources": [
+      {
+        "name": "Associated Press — banking delays and cross-bank dependencies",
+        "url": "https://apnews.com/article/aeb4b0d6b6789c8c96bb2520454a6d1e"
+      },
+      {
+        "name": "CBS News — affected banking customer reports",
+        "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/"
+      },
+      {
+        "name": "UPI — user-reported outages across banks",
+        "url": "https://www.upi.com/Top_News/US/2026/11/16/bank-services-down-in-widespread-outage/4201794862167/"
+      }
+    ]
   },
   {
     "id": "shadow-3",
