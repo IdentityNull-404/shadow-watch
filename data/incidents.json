@@ -77,11 +77,25 @@
     "sector": "Supply chain",
     "type": "Confirmed cyberattack",
     "severity": "critical",
-    "summary": "Malicious JavaScript appeared in customer website projects. Reported capabilities included credential theft, crypto wallet hijacking, and mobile exploit targeting. Victim impact under investigation.",
+    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code.",
     "source": "https://www.reuters.com/legal/government/popular-websites-subverted-bid-steal-crypto-target-iphone-users-2026-11-17/",
     "sourceName": "Reuters",
     "confidence": "High (compromise)",
-    "connection": "A compromised shared technology supplier explains the cross-site exposure, but does not establish connection to other infrastructure outages."
+    "connection": "Confirmed shared compromised Optimizely scripts explain exposure across its customer websites. Researchers observed related malicious script infrastructure on Kissmetrics, StorifyMe and Minute.ly; this is evidence of a wider web-injection campaign, not proof all four services shared an entry-point or operator. No demonstrated link to FAA, Microsoft 365, Chase, United Airlines or NSA Net outages.",
+    "additionalSources": [
+      {
+        "name": "Hudson Rock — related malicious scripts across four services, Nov. 17",
+        "url": "https://www.infostealers.com/article/beyond-optimizely-malicious-scripts-traced-across-four-web-services/"
+      },
+      {
+        "name": "StepSecurity — OPTIMJACK technical analysis, Nov. 17",
+        "url": "https://www.stepsecurity.io/blog/optimjack-optimizely-hosted-scripts-crypto-clipper-card-skimmer"
+      },
+      {
+        "name": "Help Net Security — attack scope and limitations, Nov. 17",
+        "url": "https://www.helpnetsecurity.com/2026/11/17/optimizely-vulnerability-malicious-javascript/"
+      }
+    ]
   },
   {
     "id": "shadow-2",
