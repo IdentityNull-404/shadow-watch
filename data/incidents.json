@@ -1,5 +1,19 @@
 [
   {
+    "id": "pharma-vendor-n0n-claims-2026-11-18",
+    "date": "2026-11-18",
+    "title": "Pharmaceutical data vendor targeted in n0n extortion claims",
+    "organization": "Unnamed third-party data provider / Eli Lilly, Vertex and other named customers",
+    "sector": "Healthcare",
+    "type": "Ransomware claim",
+    "severity": "high",
+    "summary": "November 18 reporting says extortion group n0n claims data from a third-party information provider associated with pharmaceutical companies. Eli Lilly says its own systems were not accessed and the vendor supplies anonymized records, not Lilly patient data. Vertex confirmed a potential third-party provider incident; Vertex and Vir reported no evidence their own systems or patient data were compromised. Claimed volumes of patient and prescriber records are unverified and should not be treated as confirmed exposure.",
+    "source": "https://www.barrons.com/articles/eli-lilly-vendor-hack-patient-data-470fcdea",
+    "sourceName": "Barron's, November 18, 2026",
+    "confidence": "Medium for reported vendor investigation; low for threat-actor claims and claimed record counts",
+    "connection": "Possible shared third-party data-platform risk with other November supplier incidents, but no established common provider, attacker, infrastructure, or technical link to the Microsoft 365, FAA, banking, United Airlines, NSA Net or Optimizely incidents."
+  },
+  {
     "id": "oracle-java-cspu-2026-11-17",
     "date": "2026-11-17",
     "title": "Oracle issues urgent Java security patches including CVE-2026-114938",
