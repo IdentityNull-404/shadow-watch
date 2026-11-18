@@ -1,5 +1,49 @@
 [
   {
+    "id": "riken-fugaku-intrusion-2026-11-10",
+    "date": "2026-11-10",
+    "title": "RIKEN confirms unauthorized access and malicious programs on Fugaku supercomputer operational servers",
+    "organization": "RIKEN Center for Computational Science / Fugaku and RIKYU",
+    "sector": "Research and high-performance computing",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "RIKEN's November 17 disclosure says an external intruder accessed Fugaku's internal operational network between November 10 and 13 through a public operational-status dashboard, altered multiple servers and installed malicious programs. Fugaku operations were suspended November 14. Names, email addresses, user IDs and stored external-service credentials associated with up to approximately 4,597 users may have been exposed; RIKEN says there is no concrete evidence research files were exfiltrated. The intruder attempted to access other systems using some obtained credentials. Exact exploit and actor remain unknown; affected users were told to revoke stored keys and rotate credentials.",
+    "source": "https://www.riken.jp/en/news_pubs/news/2026/20261116_2/index.html",
+    "sourceName": "RIKEN official incident disclosure, published November 17, 2026",
+    "confidence": "High for unauthorized access, server tampering and malicious programs; uncertain data exfiltration and secondary impact",
+    "connection": "No verified shared malicious indicators, actor, exploited vulnerability or causal relationship with the November US service outages or Optimizely.",
+    "additionalSources": [
+      {
+        "name": "RIKEN Center for Computational Science notice, November 17",
+        "url": "https://www.r-ccs.riken.jp/en/outreach/topics/20261116-1/index.html"
+      }
+    ]
+  },
+  {
+    "id": "journal-technologies-court-portals-2026-11-13",
+    "date": "2026-11-13",
+    "title": "Court e-filing portals disrupted across multiple US jurisdictions after vendor detects suspicious activity",
+    "organization": "Journal Technologies / affected US courts",
+    "sector": "Government and judicial services",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "Journal Technologies reported detecting suspicious automated activity targeting its public court-portal technology on November 13, 2026. It advised customer courts to suspend portal access during containment and security updates. Alameda County's November 17 notice confirms eCourt public portal and JTI e-filing were offline, with filing delays and in-person alternatives. Reports identify disruptions in numerous California courts and some other jurisdictions. The vendor has not confirmed data theft or malicious intrusion into court records; suspicious traffic alone does not establish a confirmed cyberattack. No verified connection to November federal, airline, banking or Optimizely incidents.",
+    "source": "https://www.alameda.courts.ca.gov/news/ecourt-remains-offline",
+    "sourceName": "Alameda County Superior Court official notice, November 17, 2026",
+    "confidence": "High for multi-court service disruption; intrusion, data exposure and attacker attribution unconfirmed",
+    "connection": "Shared court software vendor Journal Technologies explains the affected court portal disruptions; no evidence links this vendor incident to Microsoft 365, FAA, Chase, United Airlines, NSA Net or Optimizely.",
+    "additionalSources": [
+      {
+        "name": "Riverside court reporting with Journal Technologies statement, November 17",
+        "url": "https://www.kvcrnews.org/local-news/2026-11-17/public-portals-for-court-case-information-are-down-including-riverside-superior-court"
+      },
+      {
+        "name": "Los Angeles court disruption, November 18",
+        "url": "https://pasadenanow.com/main/security-incident-keeps-la-court-online-services-offline"
+      }
+    ]
+  },
+  {
     "id": "osaki-electric-ransomware-2026-11-17",
     "date": "2026-11-17",
     "title": "Osaki Electric ransomware halts smart-meter production and shipments",
