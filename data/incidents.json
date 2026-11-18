@@ -77,7 +77,7 @@
     "sector": "Supply chain",
     "type": "Confirmed cyberattack",
     "severity": "critical",
-    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code.",
+    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code. StorifyMe separately confirmed unauthorized JavaScript reached some customer integrations, said it removed code and disabled custom JavaScript, and reported no verified device compromise or data theft; investigation continues.",
     "source": "https://www.reuters.com/legal/government/popular-websites-subverted-bid-steal-crypto-target-iphone-users-2026-11-17/",
     "sourceName": "Reuters",
     "confidence": "High (compromise)",
@@ -94,6 +94,10 @@
       {
         "name": "Help Net Security — attack scope and limitations, Nov. 17",
         "url": "https://www.helpnetsecurity.com/2026/11/17/optimizely-vulnerability-malicious-javascript/"
+      },
+      {
+        "name": "iTWire — StorifyMe confirms malicious script delivery (Nov. 18 AEDT / Nov. 17 EST)",
+        "url": "https://itwire.com/business-it-news/security/storifyme-confirms-malicious-script-delivery-as-optimizely-investigation-widens"
       }
     ]
   },
