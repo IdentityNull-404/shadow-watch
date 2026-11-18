@@ -1,5 +1,25 @@
 [
   {
+    "id": "osaki-electric-ransomware-2026-11-17",
+    "date": "2026-11-17",
+    "title": "Osaki Electric ransomware halts smart-meter production and shipments",
+    "organization": "Osaki Electric Co., Ltd.",
+    "sector": "Energy supply chain",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Osaki Electric confirmed on November 18 that ransomware encrypted server data, detected around 10:35 a.m. Japan time on November 17. The company disconnected external network links and stopped production-related systems at its Saitama facility and affiliates Iwate Osaki Electric and Osaki Platech, suspending production and shipments of smart meters and other products. Restart date is unknown. Possible data exfiltration is under investigation, not confirmed. No evidence of electricity supply interruption or effects on U.S. utilities has been reported.",
+    "source": "https://www.osaki.co.jp/en/ir/news/auto_20261118582910/pdfFile.pdf",
+    "sourceName": "Osaki Electric official incident disclosure — November 18, 2026",
+    "confidence": "High (victim-confirmed ransomware encryption and manufacturing disruption); data theft and downstream impacts unconfirmed",
+    "connection": "No verified attacker attribution, shared IOC, vendor compromise, or causal connection to the November Microsoft 365, FAA, Chase, United Airlines, NSA Net, or Optimizely incidents.",
+    "additionalSources": [
+      {
+        "name": "Osaki Electric official Japanese notice — November 18, 2026",
+        "url": "https://www.osaki.co.jp/ja/notice/20261118.html"
+      }
+    ]
+  },
+  {
     "id": "pharma-vendor-n0n-claims-2026-11-18",
     "date": "2026-11-18",
     "title": "Pharmaceutical data vendor targeted in n0n extortion claims",
