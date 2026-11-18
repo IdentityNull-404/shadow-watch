@@ -1,5 +1,29 @@
 [
   {
+    "id": "oracle-java-cspu-2026-11-17",
+    "date": "2026-11-17",
+    "title": "Oracle issues urgent Java security patches including CVE-2026-114938",
+    "organization": "Oracle Java SE / GraalVM",
+    "sector": "Cross-sector",
+    "type": "Developing report",
+    "severity": "critical",
+    "summary": "Oracle's November 17 Critical Security Patch Update addresses 11 Java SE vulnerabilities that Oracle says may be remotely exploitable without authentication. CVE-2026-114938 affects the Java compiler component and is rated CVSS 3.1 8.1 by Oracle. Organizations operating affected Java deployments should prioritize vendor patches and exposure assessment. The advisory establishes vulnerable software, not a confirmed intrusion or evidence of exploitation in the wild.",
+    "source": "https://www.oracle.com/security-alerts/cspunov2026.html",
+    "sourceName": "Oracle — November 2026 Critical Security Patch Update",
+    "confidence": "High (vendor advisory); no confirmed exploitation in this reporting",
+    "connection": "Java is used across banking, aviation, government and cloud infrastructure, but common use does not establish a technical connection to the November Microsoft 365, FAA, Chase, United Airlines, NSA Net or Optimizely incidents.",
+    "additionalSources": [
+      {
+        "name": "Oracle security team — November 17 patch release",
+        "url": "https://blogs.oracle.com/security/november-2026-critical-security-patch-update-released"
+      },
+      {
+        "name": "Financial Times — CISA urges Java patching, Nov. 17",
+        "url": "https://www.ft.com/content/7d0ddcb9-5b4e-4146-b237-46c128eea419"
+      }
+    ]
+  },
+  {
     "id": "shadow-0",
     "date": "2026-11-17",
     "title": "NSA classified internal network disrupted",
