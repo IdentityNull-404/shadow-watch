@@ -98,6 +98,14 @@
       {
         "name": "iTWire — StorifyMe confirms malicious script delivery (Nov. 18 AEDT / Nov. 17 EST)",
         "url": "https://itwire.com/business-it-news/security/storifyme-confirms-malicious-script-delivery-as-optimizely-investigation-widens"
+      },
+      {
+        "name": "Optimizely — official customer incident report, Nov. 17",
+        "url": "https://pages.optimizely.com/rs/947-RKE-048/images/Security%20Incident%20Report%20-%20Optimizely%20Web%20Experimentation%20-%20Nov%2017%202026.pdf"
+      },
+      {
+        "name": "Netskope Threat Labs — defensive telemetry and attack-chain analysis, Nov. 17",
+        "url": "https://threatlabs.netskope.com/blog/2026/11/optimizely-snippet-compromise"
       }
     ]
   },
@@ -288,5 +296,19 @@
     "sourceName": "Barracuda CISO incident report",
     "confidence": "High (firsthand forensic disclosure)",
     "connection": "Confirmed supplier credential dependency. No validated indicator ties this intrusion to the global Microsoft service outage."
+  },
+  {
+    "id": "fbi-artex-flash-2026-11-13",
+    "date": "2026-11-13",
+    "title": "FBI warns of ARTEX AI-assisted intrusion framework",
+    "organization": "FBI / ARTEX threat activity",
+    "sector": "Cross-sector",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "FBI FLASH-20261113-001 documents malicious use of the ARTEX autonomous penetration-testing framework since at least August 2026 against financial services, government, energy, healthcare, telecommunications and other sectors. The FBI describes rapid multi-stage intrusions, including some reaching privileged access in under three hours, and cites reported South Korean financial-data theft and a ConnectWise Cloud Backup supply-chain compromise affecting access to more than 2,250 downstream tenants. This is a threat advisory, not a claim that the recent U.S. service outages were cyberattacks.",
+    "source": "https://www.ic3.gov/CSA/2026/261113.pdf",
+    "sourceName": "FBI FLASH — November 13, 2026",
+    "confidence": "High (official advisory); individual campaign details as described by FBI",
+    "connection": "ARTEX-related intrusion techniques may involve cloud identity and third-party access, but no public forensic evidence links ARTEX to the November Microsoft 365, FAA, Chase, United Airlines, NSA Net or Optimizely incidents. Do not infer common attribution."
   }
 ]
