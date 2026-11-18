@@ -348,5 +348,29 @@
     "sourceName": "FBI FLASH — November 13, 2026",
     "confidence": "High (official advisory); individual campaign details as described by FBI",
     "connection": "ARTEX-related intrusion techniques may involve cloud identity and third-party access, but no public forensic evidence links ARTEX to the November Microsoft 365, FAA, Chase, United Airlines, NSA Net or Optimizely incidents. Do not infer common attribution."
+  },
+  {
+    "id": "cisa-puppet-kev-2026-11-17",
+    "date": "2026-11-17",
+    "title": "CISA confirms exploitation of Puppet Enterprise remote code execution flaw CVE-2026-115731",
+    "organization": "Perforce Puppet Enterprise / CISA",
+    "sector": "Cloud",
+    "type": "Developing report",
+    "severity": "critical",
+    "summary": "CISA added CVE-2026-115731 to its Known Exploited Vulnerabilities catalog on November 17, 2026. Unsafe deserialization in Puppet Server report processing can allow a client with a CA-signed agent certificate to execute code as the Puppet Server service user. Weak certificate autosigning can make exploitation possible by unauthenticated remote attackers. Affected Puppet Enterprise branches have fixes in 2023.8.13, 2025.12.1 and 2026.0.1. Federal remediation deadline: December 1, 2026. CISA confirms exploitation in the wild, but no specific victim, campaign, or actor has been publicly established in cited sources; this advisory is not a confirmed named-victim intrusion.",
+    "source": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-115731",
+    "sourceName": "CISA Known Exploited Vulnerabilities catalog (added Nov. 17, 2026)",
+    "confidence": "High (CISA known exploitation and vendor vulnerability); victim attribution unknown",
+    "connection": "No verified shared actor, indicator, or technical causal connection with November 2026 Microsoft 365, FAA, banking, United Airlines, NSA Net, or Optimizely incidents.",
+    "additionalSources": [
+      {
+        "name": "Perforce vendor advisory",
+        "url": "https://portal.perforce.com/s/cve/a91Qi000003IaHpIAK/report-deserialization-code-execution"
+      },
+      {
+        "name": "NVD CVE-2026-115731",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+      }
+    ]
   }
 ]
