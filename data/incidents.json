@@ -191,7 +191,7 @@
     "sector": "Supply chain",
     "type": "Confirmed cyberattack",
     "severity": "critical",
-    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code. StorifyMe separately confirmed unauthorized JavaScript reached some customer integrations, said it removed code and disabled custom JavaScript, and reported no verified device compromise or data theft; investigation continues.",
+    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code. StorifyMe separately confirmed unauthorized JavaScript reached some customer integrations, said it removed code and disabled custom JavaScript, and reported no verified device compromise or data theft; investigation continues. Report URI researcher says CSP blocked malicious execution at 24 of 159 assessed organizations and blocked data theft at 17 more; exposure does not prove successful compromise.",
     "source": "https://www.reuters.com/legal/government/popular-websites-subverted-bid-steal-crypto-target-iphone-users-2026-11-17/",
     "sourceName": "Reuters",
     "confidence": "High (compromise)",
@@ -220,6 +220,10 @@
       {
         "name": "Netskope Threat Labs — defensive telemetry and attack-chain analysis, Nov. 17",
         "url": "https://threatlabs.netskope.com/blog/2026/11/optimizely-snippet-compromise"
+      },
+      {
+        "name": "Anadolu Agency — Nov. 19 technical incident analysis and researcher interviews",
+        "url": "https://mobil.aa.com.tr/en/americas/microsoft-faa-disruptions-optimizely-attack-expose-tech-dependencies/4130429"
       }
     ]
   },
@@ -273,7 +277,7 @@
     "sector": "Aviation",
     "type": "Service outage",
     "severity": "critical",
-    "summary": "Network and communications disruption caused a nationwide ground stop. Published explanations cite equipment and network instability; no verified cyberattack identified.",
+    "summary": "Network and communications disruption caused a nationwide ground stop. Published explanations cite equipment and network instability; no verified cyberattack identified. November 19 reporting of FAA investigation: instability affected 17 of 22 en-route centers; about 1,000 connection attempts every 4–5 seconds; potential origins included Amarillo radar site and El Dorado router installation. These are investigated technical sources, not proof of malicious traffic.",
     "source": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers",
     "sourceName": "FAA",
     "confidence": "High (outage)",
@@ -282,6 +286,10 @@
       {
         "name": "Reuters — FAA suspends Juniper router installations, Nov. 17",
         "url": "https://www.reuters.com/world/us/faa-halts-juniper-router-installations-after-nationwide-flight-disruptions-2026-11-17/"
+      },
+      {
+        "name": "Anadolu Agency — Nov. 19 technical incident analysis and researcher interviews",
+        "url": "https://mobil.aa.com.tr/en/americas/microsoft-faa-disruptions-optimizely-attack-expose-tech-dependencies/4130429"
       }
     ]
   },
@@ -307,11 +315,17 @@
     "sector": "Cloud",
     "type": "Service outage",
     "severity": "high",
-    "summary": "November 12–13 global Microsoft 365 and Exchange Online outage disrupted Outlook, Teams, Copilot and related services. A subsequent post-incident report described an older software defect combined with traffic changes and limited server capacity. UK government, NHS, police and Parliament were among affected users.",
+    "summary": "November 12–13 global Microsoft 365 and Exchange Online outage disrupted Outlook, Teams, Copilot and related services. A subsequent post-incident report described an older software defect combined with traffic changes and limited server capacity. UK government, NHS, police and Parliament were among affected users. November 19 reporting of Microsoft's post-incident analysis: a software defect introduced in July was triggered by shifted Teams traffic; nearly 14% of gateway server capacity was already unavailable and over 80% became unresponsive at peak. Microsoft describes a nonmalicious technical cascade.",
     "source": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
     "sourceName": "Reuters",
     "confidence": "High (outage and vendor post-incident analysis)",
-    "connection": "Direct service dependency links the Microsoft outage with UK government and public-service disruptions. A phishing campaign separately exploited the outage as a lure; it is not evidence the attackers caused the service outage."
+    "connection": "Direct service dependency links the Microsoft outage with UK government and public-service disruptions. A phishing campaign separately exploited the outage as a lure; it is not evidence the attackers caused the service outage.",
+    "additionalSources": [
+      {
+        "name": "Anadolu Agency — Nov. 19 technical incident analysis and researcher interviews",
+        "url": "https://mobil.aa.com.tr/en/americas/microsoft-faa-disruptions-optimizely-attack-expose-tech-dependencies/4130429"
+      }
+    ]
   },
   {
     "id": "uk-parliament-microsoft-2026",
