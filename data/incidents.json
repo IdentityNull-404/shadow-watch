@@ -113,7 +113,7 @@
     "source": "https://apnews.com/article/nsa-computer-network-down-22dc6be1bf1d1f5f86a7167f016e9526",
     "sourceName": "Associated Press",
     "confidence": "High (outage); cause according to NSA",
-    "connection": "TMZ drew attention to the timing of Microsoft, FAA, banking and NSA disruptions, and reported Senator Josh Hawley's concern about a possible coordinated attack. Those are reporting and political scrutiny, not forensic proof of a common actor. The NSA attributed the disruption to scheduled maintenance; no shared malicious indicators publicly established. November 17 reporting quotes the Director of National Intelligence saying the recent disruptions were not coordinated or caused by a nation-state; this is an official assessment, not independently published forensic evidence.",
+    "connection": "TMZ drew attention to the timing of Microsoft, FAA, banking and NSA disruptions, and reported Senator Josh Hawley's concern about a possible coordinated attack. Those are reporting and political scrutiny, not forensic proof of a common actor. The NSA attributed the disruption to scheduled maintenance; no shared malicious indicators publicly established. November 17 reporting quotes the Director of National Intelligence saying the recent disruptions were not coordinated or caused by a nation-state; this is an official assessment, not independently published forensic evidence. On November 18, DNI Clayton and Secretary Rubio publicly stated that their assessment found no evidence of coordination or malicious involvement across the disruptions; this is an official intelligence assessment, not publicly released technical forensics.",
     "additionalSources": [
       {
         "name": "TMZ — NSA outage and national disruptions (Nov. 17)",
@@ -126,6 +126,14 @@
       {
         "name": "AP — NSA maintenance outage and national intelligence assessment, Nov. 17",
         "url": "https://apnews.com/article/22dc6be1bf1d1f5f86a7167f016e9526"
+      },
+      {
+        "name": "White House — DNI Clayton and Secretary Rubio assess November outages as unrelated and nonmalicious, Nov. 18",
+        "url": "https://www.whitehouse.gov/releases/2026/11/no-indication-of-a-cyberattack-dni-clayton-and-secretary-rubio-on-recent-tech-outages/"
+      },
+      {
+        "name": "Reuters — Congressional testimony and router-installation explanation, Nov. 18",
+        "url": "https://www.reuters.com/business/media-telecom/no-coordination-or-foreign-state-behind-recent-us-outages-clayton-says-2026-11-18/"
       }
     ]
   },
