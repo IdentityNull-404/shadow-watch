@@ -1,5 +1,33 @@
 [
   {
+    "id": "mastercard-benefits-vendor-exposure-2026-11-19",
+    "date": "2026-11-19",
+    "title": "Mastercard confirms limited cardholder email exposure through benefits-program provider",
+    "organization": "Mastercard / unnamed third-party benefits provider",
+    "sector": "Payment networks",
+    "type": "Developing report",
+    "severity": "medium",
+    "summary": "Mastercard told Reuters on November 19 that a service provider exposed a limited number of email addresses belonging to cardholders enrolled in a particular benefits program. Mastercard said its payment network and card use were unaffected. Public information does not establish the intrusion method, whether this specific exposure resulted from a malicious compromise, or whether the n0n extortion group's claims are authentic. The underlying exposure date has not been publicly established.",
+    "source": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/",
+    "sourceName": "Reuters, November 19, 2026, citing Mastercard",
+    "confidence": "High for limited email exposure as acknowledged by Mastercard; malicious intrusion and actor attribution not established",
+    "connection": "No verified shared vendor, exploited vulnerability, malicious IOC or causal link with Chase, Visa, Optimizely or US service outages."
+  },
+  {
+    "id": "visa-apac-vendor-cyberattack-2026-11-19",
+    "date": "2026-11-19",
+    "title": "Visa confirms cyberattack targeting Asia-Pacific third-party provider",
+    "organization": "Visa / unnamed Asia-Pacific service provider",
+    "sector": "Payment networks",
+    "type": "Confirmed cyberattack",
+    "severity": "medium",
+    "summary": "In a November 19 Reuters report, Visa confirmed that a third-party provider in the Asia-Pacific region was targeted in a cyberattack. Visa said its own systems and payment-card data were not affected. The extortion group n0n separately claims data associated with Visa, JPMorgan and Mastercard, but the claimed theft, volume, attribution and any shared vendor are not independently verified. The date of the underlying intrusion has not been publicly established.",
+    "source": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/",
+    "sourceName": "Reuters, November 19, 2026, citing Visa",
+    "confidence": "High for provider attack as acknowledged by Visa; no confirmed compromise of Visa systems or card data",
+    "connection": "No verified connection to November US service outages, Optimizely or a shared attacker across the three financial brands."
+  },
+  {
     "id": "jpmorgan-third-party-vendor-breach-2026-11-19",
     "date": "2026-11-19",
     "title": "JPMorgan Chase confirms cyberattack against third-party vendors holding customer marketing data",
