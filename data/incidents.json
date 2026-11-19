@@ -1,5 +1,29 @@
 [
   {
+    "id": "jpmorgan-third-party-vendor-breach-2026-11-19",
+    "date": "2026-11-19",
+    "title": "JPMorgan Chase confirms cyberattack against third-party vendors holding customer marketing data",
+    "organization": "JPMorgan Chase / unnamed third-party vendors",
+    "sector": "Banking",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "On November 19, JPMorgan Chase confirmed that third-party service providers were targeted in a cyberattack. Its preliminary investigation indicates attackers accessed marketing data held by vendors, potentially including customer names and email addresses. The bank said it will contact affected customers and that the breach is unrelated to the November 16 transaction-processing service outage. Vendor identities, intrusion method, affected count and full data scope remain unconfirmed. The n0n group's November 16 listing and claimed stolen Reserve-program records are extortion allegations; JPMorgan has not publicly attributed the confirmed vendor breach to n0n. Do not treat claimed 16,000 records or account identifiers as independently verified.",
+    "source": "https://www.reuters.com/legal/government/jpmorgan-says-third-party-vendors-targeted-cyberattack-2026-11-19/",
+    "sourceName": "Reuters quoting JPMorgan Chase spokesperson, November 19, 2026",
+    "confidence": "High (bank-confirmed third-party attack); extent and n0n attribution unverified",
+    "connection": "JPMorgan explicitly says no connection to its November 16 banking service outage. No verified shared vendor, actor, exploit or IOC linking this breach to Microsoft 365, FAA, United Airlines, NSANet or Optimizely.",
+    "additionalSources": [
+      {
+        "name": "Reuters original report on November 16 transaction processing bug",
+        "url": "https://www.reuters.com/legal/transactional/downdetector-reports-outages-major-us-banks-2026-11-16/"
+      },
+      {
+        "name": "Ostorlab November 18 analysis of unverified n0n claims",
+        "url": "https://blog.ostorlab.co/n0n-claims-visa-mastercard-jpmorgan.html"
+      }
+    ]
+  },
+  {
     "id": "riken-fugaku-intrusion-2026-11-10",
     "date": "2026-11-10",
     "title": "RIKEN confirms unauthorized access and malicious programs on Fugaku supercomputer operational servers",
