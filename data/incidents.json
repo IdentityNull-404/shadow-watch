@@ -1,5 +1,53 @@
 [
   {
+    "id": "f5-bigip-emergency-critical-rce-advisory-2026-11-18",
+    "date": "2026-11-18",
+    "title": "F5 issues emergency BIG-IP fixes for critical unauthenticated denial-of-service and possible code execution flaws",
+    "organization": "F5 BIG-IP / APM / iRules",
+    "sector": "Cross-sector network and critical infrastructure",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "F5 published out-of-band security advisories November 18 for multiple critical vulnerabilities in BIG-IP traffic processing, including CVE-2026-121805, CVE-2026-120292, CVE-2026-120285, CVE-2026-116953, CVE-2026-120722 and CVE-2026-123637. Depending on configuration, unauthenticated requests can crash Traffic Management Microkernel and may permit remote code execution. Engineering hotfixes are available; affected organizations should inventory configured virtual servers and apply vendor-approved fixes after operational validation. No exploitation of these newly disclosed issues was confirmed in the reviewed advisories as of November 20; do not label as an actual intrusion.",
+    "source": "https://my.f5.com/s/article/K000164058",
+    "sourceName": "F5 out-of-band security notification, November 18, 2026",
+    "confidence": "High for vendor-confirmed vulnerabilities; no verified exploitation of this new set",
+    "connection": "No evidence these flaws caused the November Microsoft 365, FAA, banking, United Airlines, NSANet or Optimizely events.",
+    "additionalSources": [
+      {
+        "name": "Health-ISAC/American Hospital Association bulletin, November 19",
+        "url": "https://www.aha.org/h-isac-green-reports/2026-11-19-h-isac-vulnerability-bulletin-tlp-white-six-critical-f5-big-ip-flaws-could-lead-rce"
+      },
+      {
+        "name": "Censys technical advisory, November 18",
+        "url": "https://censys.com/advisory/cve-2026-121805/"
+      }
+    ]
+  },
+  {
+    "id": "nable-mail-assure-spamexperts-intrusion-2026-11-18",
+    "date": "2026-11-18",
+    "title": "N-able confirms unauthorized server access behind worldwide Mail Assure and SpamExperts disruption",
+    "organization": "N-able / Mail Assure / SpamExperts Hosted Cloud",
+    "sector": "Email security / managed service providers",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "N-able confirmed November 18 that unauthorized access to a server in its Mail Assure and SpamExperts Hosted Cloud caused a service disruption initially attributed to configuration and dependencies. Across the Americas, Europe and APAC, management portal, API, quarantine and logs remained unavailable November 20; inbound/outbound email delivery and spam filtering continued. N-able reported no evidence that customer data or tenant mailboxes were accessed, but said certain platform credentials may have been exposed and rotated internal credentials, revoked API/OAuth tokens and reset local-user passwords. Investigation and restoration remain ongoing. N-able says this is unrelated to its separate N-central vulnerability incident.",
+    "source": "https://uptime.n-able.com/",
+    "sourceName": "N-able official incident status, updates November 18–20, 2026",
+    "confidence": "High for unauthorized access and ongoing management-service outage; no confirmed customer mailbox compromise",
+    "connection": "No verified technical link to Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely; N-able explicitly says its separate N-central incident is unrelated.",
+    "additionalSources": [
+      {
+        "name": "SecurityWeek, November 20, 2026",
+        "url": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/"
+      },
+      {
+        "name": "BleepingComputer, November 20, 2026",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
+      }
+    ]
+  },
+  {
     "id": "nvidia-gentlemen-extortion-claim-2026-11-18",
     "date": "2026-11-18",
     "title": "Gentlemen ransomware group claims NVIDIA data; company investigates possible partner incident",
