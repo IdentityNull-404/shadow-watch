@@ -393,11 +393,17 @@
     "sector": "Energy",
     "type": "Confirmed cyberattack",
     "severity": "high",
-    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation. Equinor updated its statement on November 19: containment and restoration were still ongoing; production remained normal, with no indications of stolen or altered data. The company said the attack did not appear specifically targeted at Equinor and had reported it to police.",
+    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation. Equinor updated its statement on November 19: containment and restoration were still ongoing; production remained normal, with no indications of stolen or altered data. The company said the attack did not appear specifically targeted at Equinor and had reported it to police. Update November 20, 08:55 CET: Equinor confirmed the cyberattack had been stopped. Production continued normally, with no indications of stolen or altered data or adverse effects on employees, partners, or suppliers. No actor or technical intrusion method was disclosed.",
     "source": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack",
     "sourceName": "Equinor official statement",
     "confidence": "High (victim-confirmed attack); attacker attribution unknown",
-    "connection": "No verified technical connection to the Microsoft, FAA, banking, Apple or NSA disruptions. Important critical-infrastructure development."
+    "connection": "No verified technical connection to the Microsoft, FAA, banking, Apple or NSA disruptions. Important critical-infrastructure development.",
+    "additionalSources": [
+      {
+        "name": "Reuters, November 20, 2026 — Equinor says cyberattack stopped",
+        "url": "https://www.reuters.com/business/energy/equinor-says-cyberattack-against-company-has-been-stopped-2026-11-20/"
+      }
+    ]
   },
   {
     "id": "shadow-1",
