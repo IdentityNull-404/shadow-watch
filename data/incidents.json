@@ -1,5 +1,29 @@
 [
   {
+    "id": "vmware-vcenter-armory-castle-cve-2026-123890-2026-11-19",
+    "date": "2026-11-19",
+    "title": "Google Mandiant confirms exploitation of critical VMware vCenter zero-day by ARMORY CASTLE",
+    "organization": "VMware vCenter / Broadcom; Google Threat Intelligence Group",
+    "sector": "Cross-sector critical infrastructure and cloud",
+    "type": "Confirmed cyberattack",
+    "severity": "critical",
+    "summary": "On November 19 Broadcom released VMSA-2026-0009 for CVE-2026-123890 (CVSS 9.8), an unauthenticated vCenter Directory Service authentication bypass. Google Threat Intelligence Group and Mandiant report forensic evidence that suspected China-nexus actor ARMORY CASTLE exploited it in early September after initial access via BeyondTrust Remote Support CVE-2026-102764. The actor used BONESAW to create an SSO administrator account and extract directory data, then moved toward ESXi hosts and stole credentials/data. Vendor attribution is a research assessment, not independently proven state sponsorship. No victim identity or US infrastructure impact was publicly confirmed in this research. Patch affected vCenter and investigate historical compromise; Broadcom lists no workaround.",
+    "source": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere",
+    "sourceName": "Google Threat Intelligence Group / Mandiant technical research, November 19, 2026",
+    "confidence": "High for observed exploitation and vulnerability; actor nexus assessed by GTIG/Mandiant, victim scope undisclosed",
+    "connection": "Confirmed technical chain between BeyondTrust Remote Support CVE-2026-102764 and VMware vCenter CVE-2026-123890 within the studied intrusion. No evidence connects it to November Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely incidents.",
+    "additionalSources": [
+      {
+        "name": "Broadcom security advisory VMSA-2026-0009, November 19",
+        "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39495"
+      },
+      {
+        "name": "Canadian Centre for Cyber Security advisory, November 19",
+        "url": "https://www.cyber.gc.ca/en/alerts-advisories/vmware-security-advisory-av26-1185"
+      }
+    ]
+  },
+  {
     "id": "mastercard-benefits-vendor-exposure-2026-11-19",
     "date": "2026-11-19",
     "title": "Mastercard confirms limited cardholder email exposure through benefits-program provider",
