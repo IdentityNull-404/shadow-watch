@@ -1,5 +1,29 @@
 [
   {
+    "id": "microsoft-agent-framework-pypi-supply-chain-2026-11-17",
+    "date": "2026-11-17",
+    "title": "Malicious Microsoft Agent Framework PyPI releases steal cloud and CI credentials",
+    "organization": "Microsoft Agent Framework / PyPI",
+    "sector": "Software supply chain / Cloud",
+    "type": "Confirmed cyberattack",
+    "severity": "critical",
+    "summary": "On November 17, unauthorized versions 1.26.1 and 1.26.2 of the legitimate agent-framework Python package were published to PyPI. GitHub's malware advisory confirms credential-stealing code executed through .pth startup hooks whenever Python launched, harvesting cloud, developer and CI secrets and attempting to exfiltrate them to an attacker-controlled endpoint. Both versions were removed. Developers who installed either version should rebuild affected environments, revoke and rotate reachable secrets and investigate CI/cloud logs. Last known clean version is 1.26.0. Victim count and actor attribution remain unknown.",
+    "source": "https://github.com/advisories/GHSA-764m-3ppc-5m73",
+    "sourceName": "GitHub Advisory Database (published November 18, 2026)",
+    "confidence": "High (independently documented malicious package releases); affected installations and attribution unverified",
+    "connection": "This is a malicious supply-chain compromise involving a Microsoft-named package, not evidence that the unrelated November 12–13 Microsoft 365 service outage was malicious or that the other November outages share an attacker.",
+    "additionalSources": [
+      {
+        "name": "SecurityWeek November 18 report",
+        "url": "https://www.securityweek.com/microsoft-agent-framework-releases-poisoned-with-credential-stealer/"
+      },
+      {
+        "name": "Cloud Security Alliance November 19 analysis",
+        "url": "https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/11/CSA_research_note_microsoft_agent_framework_pypi_compromise_20261119-csa-styled.pdf"
+      }
+    ]
+  },
+  {
     "id": "f5-bigip-emergency-critical-rce-advisory-2026-11-18",
     "date": "2026-11-18",
     "title": "F5 issues emergency BIG-IP fixes for critical unauthenticated denial-of-service and possible code execution flaws",
