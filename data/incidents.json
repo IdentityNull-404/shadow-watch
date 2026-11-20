@@ -1,5 +1,25 @@
 [
   {
+    "id": "bell-canada-maximo-enterprise-data-theft-2026-11-17",
+    "date": "2026-11-17",
+    "title": "Bell Canada confirms intrusion and theft of enterprise telecom circuit-ordering data",
+    "organization": "Bell Canada / Maximo",
+    "sector": "Telecommunications / enterprise network infrastructure",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Bell Canada confirmed on November 20 that an unauthorized actor accessed multiple systems on November 17, including a pre-production Maximo environment used for ordering and provisioning telecommunications circuits, and exfiltrated enterprise customer information. Potentially exposed fields include business contact details, ticket titles and some network-element IP addresses. Bell says no credentials, highly sensitive personal information or attachments were in the affected dataset and that customer services were not disrupted. Bell described the attacker as 'agentic', but the specific AI tooling, initial access vector, affected customer count, and actor identity remain unknown. Bell says it contained the incident and shared nonpublic indicators with enterprise customers and the Canadian Centre for Cyber Security. Enterprise customers should verify unexpected circuit changes or Bell-branded requests through established contacts.",
+    "source": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+    "sourceName": "BleepingComputer, November 20, 2026, quoting Bell Canada and customer notification",
+    "confidence": "High for Bell-confirmed intrusion and exfiltration; actor attribution and specific AI mechanism unknown",
+    "connection": "No public IOCs or evidence links this intrusion to Microsoft 365, FAA, Chase, United Airlines, NSANet, Optimizely, or other November outages. Use of the term 'agentic' does not establish shared tools or operators.",
+    "additionalSources": [
+      {
+        "name": "Le Journal de Montréal, November 20, 2026, quoting Bell spokesperson Zoe Chapman",
+        "url": "https://www.journaldemontreal.com/2026/11/20/bell-victime-dune-attaque-informatique-appuyee-par-lintelligence-artificielle"
+      }
+    ]
+  },
+  {
     "id": "monai-label-cairn-ai-zero-day-2026-09-08",
     "date": "2026-09-08",
     "title": "Autonomous AI agents exploited MONAI Label zero-day to compromise university server",
