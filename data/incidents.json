@@ -1,5 +1,29 @@
 [
   {
+    "id": "nvidia-gentlemen-extortion-claim-2026-11-18",
+    "date": "2026-11-18",
+    "title": "Gentlemen ransomware group claims NVIDIA data; company investigates possible partner incident",
+    "organization": "NVIDIA / unidentified third-party partner",
+    "sector": "Semiconductors and AI infrastructure",
+    "type": "Ransomware claim",
+    "severity": "medium",
+    "summary": "On November 18, 2026, the Gentlemen extortion group listed NVIDIA on its leak site and threatened a future data release, without providing samples, file inventories or proof of access. In a November 19 statement, NVIDIA said it was investigating an incident that may have affected a third-party partner and had found no indication its own systems or networks were compromised. No theft of NVIDIA data, ransomware deployment, or NVIDIA network intrusion is verified. Do not interpret the extortion listing as a confirmed breach.",
+    "source": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+    "sourceName": "SecurityWeek, November 19, 2026, quoting NVIDIA statement",
+    "confidence": "High for public extortion claim and NVIDIA response; low for alleged theft or intrusion",
+    "connection": "No confirmed common vendor, indicators, vulnerability, or attacker connection to November Microsoft 365, FAA, Chase, United Airlines, NSANet, Optimizely or VMware events.",
+    "additionalSources": [
+      {
+        "name": "Cybernews investigation and NVIDIA statement, November 19, 2026",
+        "url": "https://cybernews.com/security/nvidia-the-gentlemen-ransomware-attack/"
+      },
+      {
+        "name": "Cyber Daily follow-up, November 20, 2026",
+        "url": "https://www.cyberdaily.au/security/14475-chipmaker-nvidia-investigating-gentlemen-ransomware-claims"
+      }
+    ]
+  },
+  {
     "id": "vmware-vcenter-armory-castle-cve-2026-123890-2026-11-19",
     "date": "2026-11-19",
     "title": "Google Mandiant confirms exploitation of critical VMware vCenter zero-day by ARMORY CASTLE",
@@ -253,7 +277,7 @@
     "sector": "Energy",
     "type": "Confirmed cyberattack",
     "severity": "high",
-    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation.",
+    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation. Equinor updated its statement on November 19: containment and restoration were still ongoing; production remained normal, with no indications of stolen or altered data. The company said the attack did not appear specifically targeted at Equinor and had reported it to police.",
     "source": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack",
     "sourceName": "Equinor official statement",
     "confidence": "High (victim-confirmed attack); attacker attribution unknown",
