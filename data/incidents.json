@@ -1,5 +1,29 @@
 [
   {
+    "id": "monai-label-cairn-ai-zero-day-2026-09-08",
+    "date": "2026-09-08",
+    "title": "Autonomous AI agents exploited MONAI Label zero-day to compromise university server",
+    "organization": "MONAI Label / East Asian universities / Amazon Threat Intelligence",
+    "sector": "Medical imaging software / research and education",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Amazon Threat Intelligence disclosed November 20 that during September 8–10 a suspected China-nexus operator used the Cairn autonomous AI penetration-testing framework against East Asian university systems. Agents discovered a previously unpatched path traversal flaw in open-source MONAI Label medical-imaging software and exploited arbitrary file writes, later installing a Python startup reverse shell and obtaining root access on a server. The agents attempted other intrusions without success; a second university network was targeted, but an additional compromise is not established. Amazon notified maintainers and worked through a government partner to notify victims; a security fix/advisory was reported November 18. Victim names, data theft, and any US impact are not established. Chinese-nexus attribution is an Amazon assessment, not verified state sponsorship.",
+    "source": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+    "sourceName": "AWS Security Blog, CJ Moses, November 20, 2026 (research describing September 8–10 intrusion)",
+    "confidence": "High for observed exploit and root compromise based on Amazon forensic research; moderate for China nexus; US impact unverified",
+    "connection": "This campaign demonstrates reuse of the Cairn AI framework across reported intrusion activity, but use of the same open-source tool does not establish a common operator. No verified technical link to the November Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely incidents.",
+    "additionalSources": [
+      {
+        "name": "BleepingComputer, November 20, 2026",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+      },
+      {
+        "name": "The Register, November 20, 2026",
+        "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+      }
+    ]
+  },
+  {
     "id": "microsoft-agent-framework-pypi-supply-chain-2026-11-17",
     "date": "2026-11-17",
     "title": "Malicious Microsoft Agent Framework PyPI releases steal cloud and CI credentials",
