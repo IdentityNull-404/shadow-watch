@@ -1,5 +1,29 @@
 [
   {
+    "id": "west-virginia-legislature-cyber-incident-2026-11-19",
+    "date": "2026-11-19",
+    "title": "West Virginia Legislature takes IT systems and website offline after cybersecurity incident",
+    "organization": "West Virginia Legislature",
+    "sector": "U.S. state government / legislative services",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "On November 19, 2026, the West Virginia Legislature identified a cybersecurity incident affecting its IT systems. On November 20, House of Delegates spokesperson Ann Ali said staff had disabled access to certain legislative IT systems and the public legislative website was unavailable while outside cybersecurity specialists assisted containment and investigation. Officials said the incident appeared limited to legislative systems and reported no evidence of impact on other state agencies. Initial access, whether data was stolen, attacker identity, malware or ransomware involvement, and restoration timing have not been established. The incident is classified as a Developing report pending technical confirmation of malicious intrusion.",
+    "source": "https://westvirginiawatch.com/2026/11/20/cybersecurity-incident-hits-west-virginia-legislature/",
+    "sourceName": "West Virginia Watch, November 20, 2026, quoting House of Delegates spokesperson Ann Ali",
+    "confidence": "High for official acknowledgment and website disruption; intrusion mechanism and data exposure unknown",
+    "connection": "No public IOCs, attacker attribution, shared vendor compromise, or technical evidence links this incident to Microsoft 365, FAA, Chase, United Airlines, NSANet, Optimizely or Michigan infrastructure.",
+    "additionalSources": [
+      {
+        "name": "The Record / Recorded Future News, November 20, 2026",
+        "url": "https://therecord.media/west-virginia-legislature-cyberattack"
+      },
+      {
+        "name": "WV MetroNews, November 20, 2026",
+        "url": "https://wvmetronews.com/2026/11/20/investigation-underway-after-cybersecurity-incident-impacts-legislatures-it-system/"
+      }
+    ]
+  },
+  {
     "id": "bell-canada-maximo-enterprise-data-theft-2026-11-17",
     "date": "2026-11-17",
     "title": "Bell Canada confirms intrusion and theft of enterprise telecom circuit-ordering data",
