@@ -1,5 +1,29 @@
 [
   {
+    "id": "usda-fpac-cybersecurity-incident-2026-11",
+    "date": "2026-11-17",
+    "title": "USDA farmer-payment and loan systems disrupted following cybersecurity incident",
+    "organization": "U.S. Department of Agriculture (USDA) / Farm Production and Conservation",
+    "sector": "U.S. federal government / Food and agriculture",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "USDA's Farm Production and Conservation systems experienced outages affecting farmer payments, loans, conservation programs and mapping tools during the week of November 16, 2026. USDA Undersecretary Richard Fordyce acknowledged a 'cyberthreat' on November 20 and said the disruptions were not merely a software update; he said no personal information or data was lost, and restoration was underway. Separately, NBC News reported on November 20, citing two former USDA officials, that hackers accessed a farmer-payment system; USDA has not publicly confirmed the scope or forensic details of that reported intrusion. Affected systems reportedly required database password resets and application restarts. The attacker, entry vector, data access and exfiltration remain unverified; potential access to food safety information is a concern raised by sources, not a confirmed consequence.",
+    "source": "https://www.dtnpf.com/agriculture/web/AG/columns/washington-insider/article/2026/11/19/usda-loan-software-systems-face-amid",
+    "sourceName": "DTN, updated November 20, 2026; USDA undersecretary remarks",
+    "confidence": "High for officially acknowledged cyberthreat and service disruption; reported hacker access remains unconfirmed by USDA",
+    "connection": "No published matching IOCs, common attacker, or exploited vulnerability ties this incident to the November Microsoft 365, FAA, Chase, United Airlines, NSANet, Optimizely, FBI NCIC or Algonquin Dam events.",
+    "additionalSources": [
+      {
+        "name": "Reuters, November 20, 2026, citing NBC News",
+        "url": "https://www.reuters.com/legal/litigation/us-department-agriculture-breached-by-hackers-this-week-nbc-news-reports-2026-11-20/"
+      },
+      {
+        "name": "ABC News, November 20, 2026, sources familiar with incident",
+        "url": "https://video.goodmorningamerica.com/food/story/new-government-report-sparks-concern-potential-cyberattack-us-138316014"
+      }
+    ]
+  },
+  {
     "id": "illinois-algonquin-dam-attempt-2026-11-16",
     "date": "2026-11-16",
     "title": "Illinois investigates apparent cyberattack attempt against Algonquin Dam",
