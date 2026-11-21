@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-21T02:12:52.147136+00:00",
+  "updated_at": "2026-11-21T09:50:14.279255+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-552b60cb29a0722a",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-21T08:49:13+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitati",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-0bac7f269a924e72",
       "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
@@ -19,7 +29,7 @@
       "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
       "publisher": "The Hacker News",
       "date": "2026-11-20T17:57:20+00:00",
-      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incompl",
+      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     },
@@ -590,16 +600,6 @@
       "publisher": "CISA",
       "date": "2026-11-17T12:00:00+00:00",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a fre",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-1de9be8128d9ed42",
-      "title": "Optimizely Vulnerability Exploited to Serve Malware on Major Websites",
-      "url": "https://www.securityweek.com/optimizely-vulnerability-exploited-to-serve-malware-on-major-websites",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-17T10:22:20+00:00",
-      "summary": "Affected organizations include BBC, CNN, Zoom, GitLab, Salesforce, Equifax, HSBC, and IKEA. The post Optimizely Vulnerability Exploited to Serve Malware on Major Websites appeared first on SecurityWeek .",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
