@@ -1,5 +1,20 @@
 [
   {
+    "id": "microsoft-entra-connect-health-metadata-breach-2026-11",
+    "date": "2026-11-20",
+    "title": "Microsoft confirms exploited Entra Connect Health API flaw exposed tenant metadata",
+    "organization": "Microsoft / Entra Connect Health",
+    "sector": "Cloud services / Enterprise identity",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Microsoft confirmed unauthorized read-only access to Entra Connect Health tenant-level contact and configuration metadata through an exploited API vulnerability introduced July 23, 2026 and discovered November 9. Its investigation concluded November 20 that access had occurred; Microsoft fixed the server-side flaw November 19 and notified affected organizations via Azure Service Health. Exposed data could include administrator and technical-contact email addresses, tenant IDs, domain names, regional information, license tiers and directory-sync status. Microsoft said it found no unauthorized configuration changes and that passwords, password hashes, authentication tokens, valid keys and on-premises AD topology were not exposed. Number of affected tenants, exploitation dates and attacker are undisclosed. Microsoft says no customer software patch is required, but advises phishing-resistant MFA and review of identity logs.",
+    "source": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+    "sourceName": "BleepingComputer, November 21, 2026, quoting Microsoft's notification and spokesperson",
+    "confidence": "High for unauthorized metadata access and Microsoft remediation, based on Microsoft's confirmation; attribution and scope unknown",
+    "connection": "This is a distinct confirmed malicious exploitation of an Entra Connect Health API flaw, not evidence that the November 12 Microsoft 365 service outage was malicious. No public IOCs, common exploited vulnerability or actor links this incident to FAA, Chase, United Airlines, NSANet or Optimizely.",
+    "additionalSources": []
+  },
+  {
     "id": "usda-fpac-cybersecurity-incident-2026-11",
     "date": "2026-11-17",
     "title": "USDA farmer-payment and loan systems disrupted following cybersecurity incident",
