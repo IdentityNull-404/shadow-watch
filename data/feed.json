@@ -1,8 +1,48 @@
 {
-  "updated_at": "2026-11-21T09:50:14.279255+00:00",
+  "updated_at": "2026-11-21T17:30:36.340798+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-e972e8964cf86a8a",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-21T15:17:27+00:00",
+      "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-c2801d1f674464d8",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-21T14:26:04+00:00",
+      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-2ac19622335dbd7a",
+      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
+      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-21T12:08:50+00:00",
+      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-31de93106fde76af",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-21T11:03:17+00:00",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacke",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-552b60cb29a0722a",
       "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
@@ -560,46 +600,6 @@
       "publisher": "SecurityWeek",
       "date": "2026-11-17T12:28:45+00:00",
       "summary": "The patches target recently disclosed zero-days, as well as vulnerabilities already exploited in the wild. The post N-able Kills Legacy APIs, Patches 17 N-central Zero-Days appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-88d6d55f0b06ce11",
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "publisher": "The Hacker News",
-      "date": "2026-11-17T12:25:06+00:00",
-      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy, a widely used open-",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-91475641f52fb30d",
-      "title": "Siemens Industrial Software Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-      "publisher": "CISA",
-      "date": "2026-11-17T12:00:00+00:00",
-      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-3b573666de1648f8",
-      "title": "Siemens Industrial Automation Software Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
-      "publisher": "CISA",
-      "date": "2026-11-17T12:00:00+00:00",
-      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-37902359fb183e15",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "publisher": "CISA",
-      "date": "2026-11-17T12:00:00+00:00",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a fre",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
