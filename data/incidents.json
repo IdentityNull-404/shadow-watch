@@ -1,5 +1,29 @@
 [
   {
+    "id": "fbi-ncic-suspected-intrusion-2026-11-20",
+    "date": "2026-11-20",
+    "title": "FBI investigating reported intrusion into National Crime Information Center database",
+    "organization": "Federal Bureau of Investigation (FBI) / NCIC",
+    "sector": "U.S. federal government / law enforcement information infrastructure",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "CNN reported on November 20, 2026, citing two people briefed on the investigation, that the FBI is investigating a suspected compromise of the National Crime Information Center (NCIC), a database used by federal, state, and local law enforcement to share warrants and other criminal justice information. Reuters corroborated the existence of CNN's report but did not independently confirm a breach; the FBI did not respond to Reuters' request for comment. Exact intrusion date, initial access, extent of access, possible data exfiltration or alteration, attacker identity, and operational impact remain unknown. This is a reported investigation, not an officially confirmed compromise.",
+    "source": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
+    "sourceName": "CNN, November 20, 2026 (citing two sources briefed on investigation)",
+    "confidence": "Moderate for reported investigation; FBI has not publicly confirmed compromise, data theft, or attacker",
+    "connection": "No publicly established IOCs, shared vulnerability, or actor link this report to the September FBIJobs breach, the West Virginia Legislature incident, or November Microsoft 365, FAA, Chase, United Airlines, NSANet, and Optimizely incidents. Geographic proximity of NCIC operations and West Virginia legislature is not technical evidence.",
+    "additionalSources": [
+      {
+        "name": "Reuters, November 21, 2026 UTC (reporting CNN findings)",
+        "url": "https://www.reuters.com/world/us/fbis-criminal-information-database-hacked-cnn-reports-2026-11-21/"
+      },
+      {
+        "name": "FBI CJIS description of NCIC",
+        "url": "https://www.fbi.gov/services/cjis"
+      }
+    ]
+  },
+  {
     "id": "west-virginia-legislature-cyber-incident-2026-11-19",
     "date": "2026-11-19",
     "title": "West Virginia Legislature takes IT systems and website offline after cybersecurity incident",
