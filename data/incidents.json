@@ -1,5 +1,25 @@
 [
   {
+    "id": "illinois-algonquin-dam-attempt-2026-11-16",
+    "date": "2026-11-16",
+    "title": "Illinois investigates apparent cyberattack attempt against Algonquin Dam",
+    "organization": "Illinois Department of Natural Resources / Algonquin Dam",
+    "sector": "Water / Critical infrastructure",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "Illinois Department of Natural Resources disclosed on November 20 that an apparent cyberattack attempt occurred November 16 involving the Algonquin Dam on the Fox River. Staff took immediate action to keep the dam secure and fully operational. Illinois State Police, state emergency management and technology agencies, and CISA are assisting. No disruption to dam operations was reported. The intrusion method, targeted systems, actor, and whether access was obtained have not been publicly established.",
+    "source": "https://abc7chicago.com/post/illinois-department-natural-resources-investigating-apparent-cyberattack-attempt-algonquin-dam-fox-river/20061537/",
+    "sourceName": "ABC7 Chicago / IDNR statement, November 21, 2026",
+    "confidence": "High confidence that officials are investigating an attempted incident; technical compromise unconfirmed",
+    "connection": "Illinois officials report no indication of a link to other recent incidents. No public matching IOCs, exploited vulnerability or actor attribution connects this event with Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely.",
+    "additionalSources": [
+      {
+        "name": "Gizmodo, November 21, 2026",
+        "url": "https://gizmodo.com/illinois-officials-investigating-cyberattack-at-algonquin-dam-2000843422"
+      }
+    ]
+  },
+  {
     "id": "fbi-ncic-suspected-intrusion-2026-11-20",
     "date": "2026-11-20",
     "title": "FBI investigating reported intrusion into National Crime Information Center database",
