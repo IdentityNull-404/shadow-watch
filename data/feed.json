@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T20:17:39.233177+00:00",
+  "updated_at": "2026-11-21T02:12:52.147136+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
@@ -11,7 +11,7 @@
       "date": "2026-11-20T18:51:43+00:00",
       "summary": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
       "status": "Developing / unverified lead",
-      "potential_duplicate": false
+      "potential_duplicate": true
     },
     {
       "id": "story-b44c0a854e15b185",
