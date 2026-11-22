@@ -1,5 +1,49 @@
 [
   {
+    "id": "glinet-goodcloud-router-kvm-malware-2026-11-20",
+    "date": "2026-11-20",
+    "title": "GL.iNet confirms exploited cloud-management flaw installed malware on routers and KVMs",
+    "organization": "GL.iNet / GoodCloud",
+    "sector": "Telecommunications / Network devices / Remote administration",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "GL.iNet disclosed November 20 that an unauthorized party exploited a vulnerability in its cloud remote-management service to install malware on a subset of routers and KVM devices. Its notice updated November 21 says the cloud attack path was closed, but malware on previously compromised devices may remain. It provided inspection instructions and scheduled stable security firmware for November 22; availability must be checked by model. Independent community researchers reported root-level reverse shells on some GL-AXT1800 devices, including connections to 170.39.226.219, but this indicator and proposed code-level root cause are not yet confirmed by the manufacturer. The number of affected devices, actor, data theft, and downstream impact on KVM-attached computers remain unknown. Owners should follow vendor inspection and recovery instructions, install official firmware, and revoke potentially exposed VPN credentials or SSH keys if compromise is found.",
+    "source": "https://www.gl-inet.com/en-eu/blogs/blog/glinet-security-notice-2026-11-20",
+    "sourceName": "GL.iNet official security notice, issued November 20 and updated November 21, 2026",
+    "confidence": "High for vendor-confirmed exploitation and malware installation; community reverse-shell details independently reported but not vendor-confirmed",
+    "connection": "Cloud remote management was the confirmed entry pathway. No evidence connects this incident to the November Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely events.",
+    "additionalSources": [
+      {
+        "name": "BleepingComputer, November 22, 2026",
+        "url": "https://www.bleepingcomputer.com/"
+      },
+      {
+        "name": "Community technical investigation, November 21–22, 2026; not vendor-confirmed",
+        "url": "https://github.com/RemoteToHome-io/gl-security-incident-2026"
+      }
+    ]
+  },
+  {
+    "id": "delta-weight-balance-system-outage-2026-11-22",
+    "date": "2026-11-22",
+    "title": "Delta weight-and-balance system outage disrupts Thanksgiving travel",
+    "organization": "Delta Air Lines",
+    "sector": "Aviation / Transportation",
+    "type": "Service outage",
+    "severity": "high",
+    "summary": "On November 22, Delta experienced a failure in its automated aircraft weight-and-balance calculation system, causing extensive delays at Atlanta and across its network during Thanksgiving travel. Delta used manual procedures while working on restoration. AP reported FlightAware showed 48% of Delta flights delayed by midday; figures are a time-specific snapshot, not a final count. The FAA said the incident did not involve its air-traffic systems. No evidence of malicious intrusion or a technical link to the November 13 FAA ground stop or November 16 United outage has been established. Travelers should check their flight status directly with Delta before departure.",
+    "source": "https://apnews.com/article/d4bdb732da930205ec3453d35c28daa2",
+    "sourceName": "Associated Press, November 22, 2026",
+    "confidence": "High for disruption and Delta's manual workaround; precise root cause and final flight impact pending",
+    "connection": "Similar operational function to United's earlier reported weight-and-balance disruption, but no established shared software, vendor, vulnerability, or attacker; FAA says its systems were not implicated.",
+    "additionalSources": [
+      {
+        "name": "Wall Street Journal, November 22, 2026",
+        "url": "https://www.wsj.com/business/airlines/delta-delays-hundreds-of-flights-over-system-outage-6bbba92c"
+      }
+    ]
+  },
+  {
     "id": "cleverbridge-payment-card-cvv-theft-2026-11-04",
     "date": "2026-11-04",
     "title": "Cleverbridge confirms payment-card data and CVV theft following platform intrusion",
