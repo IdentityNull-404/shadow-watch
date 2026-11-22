@@ -1,8 +1,28 @@
 {
-  "updated_at": "2026-11-22T11:27:59.171451+00:00",
+  "updated_at": "2026-11-22T19:38:18.218161+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-86d05566c7a214bc",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-22T18:45:37+00:00",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infect",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-64b20ec1d532f296",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-22T15:43:04+00:00",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": true
+    },
     {
       "id": "story-4fc724297b01d343",
       "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
@@ -580,26 +600,6 @@
       "publisher": "The Hacker News",
       "date": "2026-11-17T15:17:36+00:00",
       "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw ",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-d766d63f4287441c",
-      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions",
-      "publisher": "BleepingComputer",
-      "date": "2026-11-17T15:01:11+00:00",
-      "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-76605a69ba15f29c",
-      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
-      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-17T14:55:30+00:00",
-      "summary": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities. The post Market Research Giant Ipsos Investigating Breach of Internal System appeared first on SecurityWeek .",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
