@@ -1,5 +1,20 @@
 [
   {
+    "id": "cleverbridge-payment-card-cvv-theft-2026-11-04",
+    "date": "2026-11-04",
+    "title": "Cleverbridge confirms payment-card data and CVV theft following platform intrusion",
+    "organization": "Cleverbridge",
+    "sector": "E-commerce / Software payment processing / Supply chain",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Cleverbridge detected unauthorized activity on November 4, 2026 and took systems offline temporarily. Its investigation determined an unauthorized third party copied stored payment-card data. Customer notices sent starting November 20 reportedly identify card numbers, expiry dates and CVV/CVC security codes as exposed. Cleverbridge says it has notified authorities and payment networks, and the incident did not involve ransomware or encryption. As of November 22, the number of affected customers, intrusion method, dwell time and which software merchants' buyers were impacted remain undisclosed. Affected cardholders should monitor statements and contact their issuer about replacement, especially given reported CVV exposure.",
+    "source": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "sourceName": "BleepingComputer, November 22, 2026, quoting Cleverbridge's security notice and customer notification",
+    "confidence": "High for company-confirmed unauthorized access and copied card data; specific card fields based on a notification reviewed by BleepingComputer; impact count and actor unknown",
+    "connection": "Cleverbridge serves software vendors, making this a payment-processing supplier exposure. No published IOCs, common exploited vulnerability, or actor attribution link it to the November Chase transaction outage, separate Chase vendor breach, Microsoft 365, FAA, United Airlines, NSANet or Optimizely events.",
+    "additionalSources": []
+  },
+  {
     "id": "rackspace-spot-kubernetes-credential-intrusion-2026-11",
     "date": "2026-11-17",
     "title": "Rackspace Spot breached using leaked credentials; customer Kubernetes secrets potentially exposed",
