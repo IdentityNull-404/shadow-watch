@@ -913,5 +913,25 @@
         "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
       }
     ]
+  },
+  {
+    "id": "bell-mts-email-provider-intrusion-2026-11-2022",
+    "date": "2026-11-18",
+    "title": "Bell MTS confirms third-party email provider cyberattack and unauthorized mailbox access",
+    "organization": "Bell MTS / unnamed third-party email provider",
+    "sector": "Telecommunications / consumer email",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "On November 22, 2026, Bell MTS confirmed that an attack against its third-party email provider caused a multi-day Manitoba customer email outage beginning around November 17–18. According to Bell MTS, attackers exploited a vulnerability in the provider's password-reset application, accessed some customer mailboxes, and triggered password resets and account lockouts. Service was reported restored November 20, although some customers continued reporting access problems. Bell MTS said the incident was remediated and self-service password resets restored; the number of accessed accounts, provider identity, data viewed or exfiltrated, and attacker identity remain undisclosed. This is distinct from the Bell Canada enterprise Maximo breach disclosed November 20; whether the two share an attacker or infrastructure has not been established.",
+    "source": "https://www.winnipegfreepress.com/breakingnews/2026/11/22/bell-mts-says-cyberattack-behind-recent-email-outage",
+    "sourceName": "Winnipeg Free Press, November 22, 2026, reporting direct Bell MTS spokesperson statements",
+    "confidence": "High for company-confirmed exploitation and unauthorized mailbox access; scope and attribution unknown",
+    "connection": "Bell MTS and Bell Canada share a corporate brand and overlapping disclosure week, but no verified common attacker, exploited vulnerability, or indicators connect their incidents. No evidence connects this to November U.S. Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely events.",
+    "additionalSources": [
+      {
+        "name": "Winnipeg Free Press — November 20 outage and restoration reporting",
+        "url": "https://www.winnipegfreepress.com/breakingnews/2026/11/20/customers-call-out-bell-mts-for-email-service-outage"
+      }
+    ]
   }
 ]
