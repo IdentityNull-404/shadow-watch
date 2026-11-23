@@ -602,15 +602,19 @@
     "sector": "Energy",
     "type": "Confirmed cyberattack",
     "severity": "high",
-    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation. Equinor updated its statement on November 19: containment and restoration were still ongoing; production remained normal, with no indications of stolen or altered data. The company said the attack did not appear specifically targeted at Equinor and had reported it to police. Update November 20, 08:55 CET: Equinor confirmed the cyberattack had been stopped. Production continued normally, with no indications of stolen or altered data or adverse effects on employees, partners, or suppliers. No actor or technical intrusion method was disclosed.",
+    "summary": "Norwegian energy company Equinor announced on November 17 that it detected an ongoing cyberattack targeting certain IT systems and informed authorities. The company said oil and gas production and other operations were unaffected at the time of its statement. The intrusion mechanism and attacker remain under investigation. Equinor updated its statement on November 19: containment and restoration were still ongoing; production remained normal, with no indications of stolen or altered data. The company said the attack did not appear specifically targeted at Equinor and had reported it to police. Update November 20, 08:55 CET: Equinor confirmed the cyberattack had been stopped. Production continued normally, with no indications of stolen or altered data or adverse effects on employees, partners, or suppliers. No actor or technical intrusion method was disclosed. November 23 update: Norway's NSM identified active targeting of Azure API Management (APIM) secrets and named values, naming Equinor and Skagerak Energi among affected organizations. This provides a reported shared technical exposure for the Norwegian energy incidents, but does not establish that the same attacker compromised both or prove the precise entry path at Equinor. NSM reports no identified impact on energy deliveries; the extent of exploitation remains unknown.",
     "source": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack",
     "sourceName": "Equinor official statement",
     "confidence": "High (victim-confirmed attack); attacker attribution unknown",
-    "connection": "No verified technical connection to the Microsoft, FAA, banking, Apple or NSA disruptions. Important critical-infrastructure development.",
+    "connection": "NSM's November 20 advisory (updated November 23) identifies the Azure API Management secret-exposure vulnerability affecting Equinor and Skagerak Energi, establishing a shared vulnerable service, not a verified common attacker. No evidence connects this flaw to the November Microsoft 365 availability outage, FAA, Chase, United Airlines, NSANet or Optimizely incidents.",
     "additionalSources": [
       {
         "name": "Reuters, November 20, 2026 — Equinor says cyberattack stopped",
         "url": "https://www.reuters.com/business/energy/equinor-says-cyberattack-against-company-has-been-stopped-2026-11-20/"
+      },
+      {
+        "name": "Norwegian National Security Authority (NSM), November 20 advisory, updated November 23 — Azure API Management exploitation",
+        "url": "https://nsm.no/fagomrader/digital-sikkerhet/digital-hendelseshandtering/varsler-fra-nsm/nsm-deler-tiltak-mot-sarbarhet-i-azure-api-management"
       }
     ]
   },
@@ -931,6 +935,30 @@
       {
         "name": "Winnipeg Free Press — November 20 outage and restoration reporting",
         "url": "https://www.winnipegfreepress.com/breakingnews/2026/11/20/customers-call-out-bell-mts-for-email-service-outage"
+      }
+    ]
+  },
+  {
+    "id": "azure-apim-classic-secrets-exploitation-2026-11-2023",
+    "date": "2026-11-20",
+    "title": "Azure API Management Classic flaw exploited to target credentials at Norwegian energy firms",
+    "organization": "Microsoft Azure API Management / Equinor / Skagerak Energi",
+    "sector": "Cloud services / energy / critical infrastructure",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Norway's National Security Authority (NSM) reported November 20, updated November 23, that an unknown actor actively targeted access tokens, secrets and named values in Azure API Management, affecting several organizations including Equinor and Skagerak Energi. Reporting on a Microsoft customer notice says vulnerable Classic-tier instances could expose stored secrets; Microsoft identified the issue November 18 and closed the access path November 19. The number of affected customers and whether credentials were actually extracted at each company remain unknown. Both energy companies reported no interruption to production or energy deliveries. Administrators should inventory Classic instances, investigate access, rotate exposed secrets and tokens, and use Azure Key Vault. No public CVE was verified.",
+    "source": "https://nsm.no/fagomrader/digital-sikkerhet/digital-hendelseshandtering/varsler-fra-nsm/nsm-deler-tiltak-mot-sarbarhet-i-azure-api-management",
+    "sourceName": "Norwegian National Security Authority, advisory November 20, 2026, updated November 23",
+    "confidence": "High for active targeting and affected organizations per NSM; exact victim-level exfiltration, actor identity and breadth unconfirmed",
+    "connection": "NSM links Equinor and Skagerak Energi through affected Azure APIM infrastructure, but no verified shared actor or IOCs. No demonstrated link to November Microsoft 365 outage, FAA, Chase, United Airlines, NSANet or Optimizely.",
+    "additionalSources": [
+      {
+        "name": "The Register, November 23, 2026 — Microsoft customer advisory and affected Classic tiers",
+        "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/"
+      },
+      {
+        "name": "SecurityWeek, November 23, 2026",
+        "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/"
       }
     ]
   }
