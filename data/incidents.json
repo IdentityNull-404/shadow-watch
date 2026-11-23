@@ -140,7 +140,7 @@
     "sector": "U.S. federal government / law enforcement information infrastructure",
     "type": "Developing report",
     "severity": "high",
-    "summary": "CNN reported on November 20, 2026, citing two people briefed on the investigation, that the FBI is investigating a suspected compromise of the National Crime Information Center (NCIC), a database used by federal, state, and local law enforcement to share warrants and other criminal justice information. Reuters corroborated the existence of CNN's report but did not independently confirm a breach; the FBI did not respond to Reuters' request for comment. Exact intrusion date, initial access, extent of access, possible data exfiltration or alteration, attacker identity, and operational impact remain unknown. This is a reported investigation, not an officially confirmed compromise.",
+    "summary": "CNN reported on November 20, 2026, citing two people briefed on the investigation, that the FBI is investigating a suspected compromise of the National Crime Information Center (NCIC), a database used by federal, state, and local law enforcement to share warrants and other criminal justice information. Reuters corroborated the existence of CNN's report but did not independently confirm a breach; the FBI did not respond to Reuters' request for comment. Exact intrusion date, initial access, extent of access, possible data exfiltration or alteration, attacker identity, and operational impact remain unknown. This is a reported investigation, not an officially confirmed compromise. On November 21, President Trump publicly acknowledged the reported breach in a Fox News interview, calling it 'not good,' as reported by The Daily Wire. His remarks do not independently establish the scope of access, data theft, or attacker identity; his speculation about Russia-related investigations is not evidence that such records were accessed.",
     "source": "https://www.cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database",
     "sourceName": "CNN, November 20, 2026 (citing two sources briefed on investigation)",
     "confidence": "Moderate for reported investigation; FBI has not publicly confirmed compromise, data theft, or attacker",
@@ -153,6 +153,10 @@
       {
         "name": "FBI CJIS description of NCIC",
         "url": "https://www.fbi.gov/services/cjis"
+      },
+      {
+        "name": "The Daily Wire, November 21, 2026 (Trump comments in Fox News interview)",
+        "url": "https://www.dailywire.com/news/trump-calls-reported-fbi-database-hack-not-good-but-hints-at-what-it-could-reveal"
       }
     ]
   },
