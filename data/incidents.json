@@ -893,5 +893,25 @@
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
       }
     ]
+  },
+  {
+    "id": "globetopper-intrusion-2026-10-22",
+    "date": "2026-10-22",
+    "title": "GlobeTopper confirms unauthorized platform access, stolen business API keys and gift-card redemptions",
+    "organization": "GlobeTopper / iQSTEL",
+    "sector": "Financial services / digital prepaid distribution",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "iQSTEL disclosed in a November 20, 2026 SEC Form 8-K that GlobeTopper identified unauthorized platform access October 22 and additional unauthorized activity October 23. It took affected systems offline, rebuilt the platform on AWS October 31 and began phased restoration November 1. An unauthorized party obtained certain business customers' API credentials and integration keys, which have been rotated; the company reports no observed misuse of those keys. Approximately $70,000 in gift cards were redeemed without authorization. The preliminary high-end estimate of revenue not generated during downtime is $2.5 million, not a confirmed permanent loss. Investigation of possible other personal, payment, customer or provider data exposure continues. iQSTEL has not determined the incident to be material.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1527702/000166357726000359/iqst8k112026.htm",
+    "sourceName": "iQSTEL SEC Form 8-K, filed November 20, 2026",
+    "confidence": "High for unauthorized access and disclosed impacts (SEC filing); actor, entry vector and additional data exposure unknown",
+    "connection": "No published indicators, attacker attribution, shared exploited vulnerability or causal evidence connects this intrusion to the November Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely incidents. Rebuilding on AWS is remediation, not evidence AWS was compromised.",
+    "additionalSources": [
+      {
+        "name": "BleepingComputer report — November 23, 2026",
+        "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+      }
+    ]
   }
 ]
