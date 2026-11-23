@@ -1,5 +1,29 @@
 [
   {
+    "id": "eu-72-hour-emergency-preparedness-guidelines-2026-11-03",
+    "date": "2026-11-03",
+    "title": "EU issues 72-hour household preparedness guidance amid cyber and infrastructure disruption concerns",
+    "organization": "European Commission",
+    "sector": "Critical infrastructure resilience / Public preparedness",
+    "type": "Developing report",
+    "severity": "informational",
+    "summary": "On November 3, 2026, the European Commission presented population-preparedness guidance encouraging at least 72 hours of household self-sufficiency during emergencies, including potential cyber-related disruptions, extreme weather, and other crises. CBS News reported on November 23 that European governments were promoting emergency supplies and highlighted separate attacks on supermarket refrigeration systems. This is a verified preparedness policy development, NOT evidence of an imminent cyberattack, confirmed U.S. grid compromise, or a coordinated campaign. Residents can consider water, shelf-stable food, medicines, lighting, radio, backup power and emergency cash appropriate to local risks. No specific new Michigan threat has been verified.",
+    "source": "https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commission-takes-new-steps-prepare-europeans-growing-crisis-risks-2026-11-03_en",
+    "sourceName": "European Commission, November 3, 2026",
+    "confidence": "High for EU guidance; CBS reporting on other incidents does not prove technical connections or an imminent threat.",
+    "connection": "No established shared attacker, indicators of compromise, or exploited vulnerability linking this preparedness guidance to November 2026 Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely incidents. Supermarket refrigeration incidents require separate technical corroboration.",
+    "additionalSources": [
+      {
+        "name": "CBS News, November 23, 2026",
+        "url": "https://www.cbsnews.com/news/prepping-comes-to-europe-government-advice-stockpile-food-water/"
+      },
+      {
+        "name": "European Commission, original Preparedness Union Strategy, March 26, 2025",
+        "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_25_856/IP_25_856_EN.pdf"
+      }
+    ]
+  },
+  {
     "id": "cisco-expressway-cve-2026-76466-exploitation-2026-11-20",
     "date": "2026-11-20",
     "title": "CISA confirms active exploitation of critical Cisco Expressway remote-code-execution flaw",
