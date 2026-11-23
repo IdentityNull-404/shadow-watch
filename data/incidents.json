@@ -1,5 +1,29 @@
 [
   {
+    "id": "cisco-expressway-cve-2026-76466-exploitation-2026-11-20",
+    "date": "2026-11-20",
+    "title": "CISA confirms active exploitation of critical Cisco Expressway remote-code-execution flaw",
+    "organization": "Cisco / CISA",
+    "sector": "Enterprise communications / Network infrastructure",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "CISA added CVE-2026-76466 (CVSS 9.8) to its Known Exploited Vulnerabilities catalog on November 20 after evidence of exploitation. The flaw affects vulnerable clustered Cisco Expressway-C and Expressway-E deployments and can permit an unauthenticated attacker possessing cluster cookies and network access to the database service to execute commands as root. Security firm F6 reported exploitation against an organization in Russia; the full scope and attacker identity are not established. Cisco published its fix October 21 and lists no workaround. Federal civilian agencies face a November 23 remediation deadline. Organizations using affected clustered deployments should install the vendor-fixed release, review exposure and perform compromise triage; this is not evidence of a consumer-device or Michigan-wide compromise.",
+    "source": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-vcs-static-cred-hr7EWZ8t.html",
+    "sourceName": "Cisco security advisory, October 21, 2026",
+    "confidence": "High: Cisco confirms vulnerability; CISA KEV inclusion confirms exploitation. Victim specifics are third-party reporting.",
+    "connection": "No verified indicators, shared exploited vulnerability, or attacker attribution link this Cisco exploitation to the November Microsoft 365, FAA, Chase, United Airlines, NSANet, or Optimizely incidents.",
+    "additionalSources": [
+      {
+        "name": "BleepingComputer, November 23, 2026",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+      },
+      {
+        "name": "Red Tiger Security KEV analysis, November 20, 2026",
+        "url": "https://www.redtigersecurity.com/advisory/cisco-expressway-cve-2026-76466-kev"
+      }
+    ]
+  },
+  {
     "id": "glinet-goodcloud-router-kvm-malware-2026-11-20",
     "date": "2026-11-20",
     "title": "GL.iNet confirms exploited cloud-management flaw installed malware on routers and KVMs",
