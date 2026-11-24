@@ -774,7 +774,7 @@
     "sector": "Cloud",
     "type": "Service outage",
     "severity": "high",
-    "summary": "November 12–13 global Microsoft 365 and Exchange Online outage disrupted Outlook, Teams, Copilot and related services. A subsequent post-incident report described an older software defect combined with traffic changes and limited server capacity. UK government, NHS, police and Parliament were among affected users. November 19 reporting of Microsoft's post-incident analysis: a software defect introduced in July was triggered by shifted Teams traffic; nearly 14% of gateway server capacity was already unavailable and over 80% became unresponsive at peak. Microsoft describes a nonmalicious technical cascade.",
+    "summary": "November 12–13 global Microsoft 365 and Exchange Online outage disrupted Outlook, Teams, Copilot and related services. A subsequent post-incident report described an older software defect combined with traffic changes and limited server capacity. UK government, NHS, police and Parliament were among affected users. November 19 reporting of Microsoft's post-incident analysis: a software defect introduced in July was triggered by shifted Teams traffic; nearly 14% of gateway server capacity was already unavailable and over 80% became unresponsive at peak. Microsoft describes a nonmalicious technical cascade. November 24 update: Reuters reported internal Microsoft memos describing a Code Red remediation program following the outage. Microsoft attributed the incident to a Windows scalability defect introduced in July and ruled out cyber activity and AI agents as causes. The program targets load shedding, geographic traffic partitioning and faster recovery; a one-hour worldwide recovery goal is an objective, not an achieved capability. Internal memos also describe fragmented diagnostic information and slow global patch deployment.",
     "source": "https://www.reuters.com/technology/microsoft-365-outlook-down-thousands-us-users-downdetector-shows-2026-11-12/",
     "sourceName": "Reuters",
     "confidence": "High (outage and vendor post-incident analysis)",
@@ -783,6 +783,10 @@
       {
         "name": "Anadolu Agency — Nov. 19 technical incident analysis and researcher interviews",
         "url": "https://mobil.aa.com.tr/en/americas/microsoft-faa-disruptions-optimizely-attack-expose-tech-dependencies/4130429"
+      },
+      {
+        "name": "Reuters, November 24, 2026 — internal Code Red memos",
+        "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
       }
     ]
   },
