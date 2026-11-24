@@ -332,7 +332,7 @@
     "sector": "Email security / managed service providers",
     "type": "Confirmed cyberattack",
     "severity": "high",
-    "summary": "N-able confirmed November 18 that unauthorized access to a server in its Mail Assure and SpamExperts Hosted Cloud caused a service disruption initially attributed to configuration and dependencies. Across the Americas, Europe and APAC, management portal, API, quarantine and logs remained unavailable November 20; inbound/outbound email delivery and spam filtering continued. N-able reported no evidence that customer data or tenant mailboxes were accessed, but said certain platform credentials may have been exposed and rotated internal credentials, revoked API/OAuth tokens and reset local-user passwords. Investigation and restoration remain ongoing. N-able says this is unrelated to its separate N-central vulnerability incident.",
+    "summary": "N-able confirmed November 18 that unauthorized access to a server in its Mail Assure and SpamExperts Hosted Cloud caused a service disruption initially attributed to configuration and dependencies. Across the Americas, Europe and APAC, management portal, API, quarantine and logs remained unavailable November 20; inbound/outbound email delivery and spam filtering continued. N-able reported no evidence that customer data or tenant mailboxes were accessed, but said certain platform credentials may have been exposed and rotated internal credentials, revoked API/OAuth tokens and reset local-user passwords. Investigation and restoration remain ongoing. N-able says this is unrelated to its separate N-central vulnerability incident. Update November 24: N-able reported remediation and restoration of dashboard/API access on November 21, with no evidence of exploitation beyond the initially identified hosted server. CISA added CVE-2026-134624 (SSRF, vendor CVSS 9.3) to KEV on November 23, with a November 26 federal mitigation deadline. The precise initial entry vector and credential exposure remain under investigation; independent forensic review and a root cause report are pending.",
     "source": "https://uptime.n-able.com/",
     "sourceName": "N-able official incident status, updates November 18–20, 2026",
     "confidence": "High for unauthorized access and ongoing management-service outage; no confirmed customer mailbox compromise",
@@ -345,6 +345,18 @@
       {
         "name": "BleepingComputer, November 20, 2026",
         "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
+      },
+      {
+        "name": "Canadian Centre for Cyber Security, November 23, 2026",
+        "url": "https://www.cyber.gc.ca/en/alerts-advisories/n-able-security-advisory-av26-1191"
+      },
+      {
+        "name": "Recorded Future News, November 24, 2026",
+        "url": "https://therecord.media/cisa-nable-cybersecurity-bug"
+      },
+      {
+        "name": "Rescana technical analysis, November 24, 2026",
+        "url": "https://www.rescana.com/post/n-able-mail-assure-cve-2026-134624-ssrf-added-to-cisa-kev-what-customers-should-do-now"
       }
     ]
   },
