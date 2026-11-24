@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T21:23:21.581840+00:00",
+  "updated_at": "2026-11-24T06:01:53.232178+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
@@ -55,11 +55,11 @@
     },
     {
       "id": "story-e41ccef1ec479ff7",
-      "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
       "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack",
       "publisher": "SecurityWeek",
       "date": "2026-11-23T15:06:49+00:00",
-      "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek .",
+      "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack appeared first on SecurityWeek .",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     },
