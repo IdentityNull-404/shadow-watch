@@ -1,5 +1,20 @@
 [
   {
+    "id": "fincen-unauthorized-access-2026-11-24",
+    "date": "2026-11-24",
+    "title": "FinCEN investigates unauthorized access to federal financial intelligence systems",
+    "organization": "U.S. Treasury / FinCEN",
+    "sector": "Federal government / Financial services",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "On November 24, The Verge reported that FinCEN disclosed unauthorized access to a limited subset of systems and took some services offline as a precaution. Online bank reporting remains available, although some services may be temporarily unavailable. The intrusion date, data exposure, vector and actor are undisclosed; entry date reflects public reporting.",
+    "source": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+    "sourceName": "The Verge, November 24, 2026",
+    "confidence": "Credible reporting of an agency disclosure; direct agency notice and independent technical corroboration not located in this review.",
+    "connection": "No verified technical connection to CIA/ODNI, FBI, Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely. No confirmed consumer account compromise or Michigan-specific impact.",
+    "additionalSources": []
+  },
+  {
     "id": "cia-odni-osint-breach-2026-11-24",
     "date": "2026-11-24",
     "title": "CIA and ODNI unclassified intelligence system breach reported",
