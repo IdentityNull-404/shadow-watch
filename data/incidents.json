@@ -1,5 +1,25 @@
 [
   {
+    "id": "greynoise-gt13-check-point-2026-11-23",
+    "date": "2026-11-23",
+    "title": "GT13 compromises Check Point management servers across 22 organizations",
+    "organization": "Check Point customers / GreyNoise GT13",
+    "sector": "Government / Energy / Finance / Transportation",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "GreyNoise reported observed intrusions from October 17 to November 2, 2026, affecting at least 22 organizations in 17 countries, including the United States. Data from 24 management servers was collected by the actor. Initial access is unknown; CVE-2026-16232 was observed in subsequent activity. AI assistance and continued access are researcher assessments, not independently confirmed. Administrators should patch, restrict management access and investigate unauthorized policy and certificate changes.",
+    "source": "https://www.greynoise.io/category/vulnerabilities",
+    "sourceName": "GreyNoise primary research, November 23",
+    "confidence": "High for observed intrusions; uncertain attribution and ongoing status",
+    "connection": "No verified link to the November infrastructure outages or Optimizely. Victim identities and Michigan impact are not established.",
+    "additionalSources": [
+      {
+        "name": "SecurityWeek, November 24",
+        "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
+      }
+    ]
+  },
+  {
     "id": "fincen-unauthorized-access-2026-11-24",
     "date": "2026-11-24",
     "title": "FinCEN investigates unauthorized access to federal financial intelligence systems",
