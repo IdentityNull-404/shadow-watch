@@ -1,5 +1,29 @@
 [
   {
+    "id": "juniper-session-smart-exploitation-2026-11-25",
+    "date": "2026-11-25",
+    "title": "Reported active exploitation of critical Juniper Session Smart Conductor vulnerability",
+    "organization": "HPE / Juniper Networks",
+    "sector": "Network infrastructure / Telecommunications",
+    "type": "Developing report",
+    "severity": "critical",
+    "summary": "November 25 technical reporting cites CISA KEV addition of CVE-2026-103406 and Juniper bulletin JSA112183 updated November 24 acknowledging at least one reported malicious exploitation. CVSS 9.8; federal remediation deadline reportedly November 28. Upgrade affected systems to vendor-fixed releases and perform forensic triage. Exact victim and exploitation dates unknown; entry date is advisory reporting date. Direct primary advisory retrieval was not completed.",
+    "source": "https://www.valitron.se/lang/en/news/2026-11-25-juniper-session-smart-cve-2026-103406-added-to-cisa-kev/",
+    "sourceName": "Valitron, November 25, citing vendor and CISA records",
+    "confidence": "Corroborated technical reporting; primary records not directly retrieved in this run.",
+    "connection": "FAA previously suspended Juniper router installations, but shared vendor alone does not establish the same product, CVE, compromise or attacker. No verified link to monitored outages.",
+    "additionalSources": [
+      {
+        "name": "Juniper vendor bulletin (referenced by reporting)",
+        "url": "https://supportportal.juniper.net/JSA112183"
+      },
+      {
+        "name": "Red Tiger Security, November 25",
+        "url": "https://www.redtigersecurity.com/advisory/juniper-session-smart-router-kev-cve-2026-103406"
+      }
+    ]
+  },
+  {
     "id": "greynoise-gt13-check-point-2026-11-23",
     "date": "2026-11-23",
     "title": "GT13 compromises Check Point management servers across 22 organizations",
@@ -25,14 +49,23 @@
     "title": "FinCEN investigates unauthorized access to federal financial intelligence systems",
     "organization": "U.S. Treasury / FinCEN",
     "sector": "Federal government / Financial services",
-    "type": "Developing report",
+    "type": "Confirmed cyberattack",
     "severity": "high",
-    "summary": "On November 24, The Verge reported that FinCEN disclosed unauthorized access to a limited subset of systems and took some services offline as a precaution. Online bank reporting remains available, although some services may be temporarily unavailable. The intrusion date, data exposure, vector and actor are undisclosed; entry date reflects public reporting.",
+    "summary": "On November 24, The Verge reported that FinCEN disclosed unauthorized access to a limited subset of systems and took some services offline as a precaution. Online bank reporting remains available, although some services may be temporarily unavailable. The intrusion date, data exposure, vector and actor are undisclosed; entry date reflects public reporting. November 25 update: Reuters quoted an agency official confirming unauthorized access; investigators have found no evidence of compromise of the Bank Secrecy Act or beneficial ownership databases so far. Federal banking regulators issued joint reporting relief on November 25.",
     "source": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
     "sourceName": "The Verge, November 24, 2026",
-    "confidence": "Credible reporting of an agency disclosure; direct agency notice and independent technical corroboration not located in this review.",
+    "confidence": "High for agency-confirmed unauthorized access; scope and attribution unknown.",
     "connection": "No verified technical connection to CIA/ODNI, FBI, Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely. No confirmed consumer account compromise or Michigan-specific impact.",
-    "additionalSources": []
+    "additionalSources": [
+      {
+        "name": "Reuters, November 25",
+        "url": "https://www.reuters.com/world/us-fincen-takes-some-systems-offline-after-cyber-incident-official-says-2026-11-25/"
+      },
+      {
+        "name": "Joint federal banking regulators statement, November 25",
+        "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-59a.pdf"
+      }
+    ]
   },
   {
     "id": "cia-odni-osint-breach-2026-11-24",
@@ -717,7 +750,7 @@
     "sector": "Supply chain",
     "type": "Confirmed cyberattack",
     "severity": "critical",
-    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code. StorifyMe separately confirmed unauthorized JavaScript reached some customer integrations, said it removed code and disabled custom JavaScript, and reported no verified device compromise or data theft; investigation continues. Report URI researcher says CSP blocked malicious execution at 24 of 159 assessed organizations and blocked data theft at 17 more; exposure does not prove successful compromise.",
+    "summary": "On November 16, attackers exploited Optimizely Web Experimentation to inject malicious JavaScript into customer sites associated with at least 178 organizations. Researchers identified cryptocurrency-address substitution, payment-card skimming, and conditional delivery of iOS exploit stages; successful iPhone compromise and the number of stolen cards are not established. On November 17 researchers also reported related malicious script delivery through Kissmetrics, StorifyMe and Minute.ly, with shared loader/infrastructure observations. Optimizely said it fixed the vulnerability and removed injected code. StorifyMe separately confirmed unauthorized JavaScript reached some customer integrations, said it removed code and disabled custom JavaScript, and reported no verified device compromise or data theft; investigation continues. Report URI researcher says CSP blocked malicious execution at 24 of 159 assessed organizations and blocked data theft at 17 more; exposure does not prove successful compromise. November 24 update: secondary KEV reporting identifies CVE-2026-132224 as added to CISA's exploited catalog, with a November 27 federal remediation deadline; direct catalog retrieval was not completed.",
     "source": "https://www.reuters.com/legal/government/popular-websites-subverted-bid-steal-crypto-target-iphone-users-2026-11-17/",
     "sourceName": "Reuters",
     "confidence": "High (compromise)",
@@ -750,6 +783,10 @@
       {
         "name": "Anadolu Agency — Nov. 19 technical incident analysis and researcher interviews",
         "url": "https://mobil.aa.com.tr/en/americas/microsoft-faa-disruptions-optimizely-attack-expose-tech-dependencies/4130429"
+      },
+      {
+        "name": "CybersecurityNews.us, KEV reporting",
+        "url": "https://cybersecuritynews.us/cve/CVE-2026-132224"
       }
     ]
   },
