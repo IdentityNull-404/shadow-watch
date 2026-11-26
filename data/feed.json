@@ -1,8 +1,48 @@
 {
-  "updated_at": "2026-11-26T15:14:21.783545+00:00",
+  "updated_at": "2026-11-26T23:52:21.841553+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-08c326dd24dcd490",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-26T17:15:27+00:00",
+      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-e424a6c10fc1b866",
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-26T17:06:55+00:00",
+      "summary": "FIFA didn’t say when the cyberattack took place, or the precise nature of the hacked information. The post FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’ appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-928a41a9b2193962",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-26T15:23:28+00:00",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-0574110d7d17666e",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-26T15:13:41+00:00",
+      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-a179a17c70a588b1",
       "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
@@ -560,46 +600,6 @@
       "publisher": "The Hacker News",
       "date": "2026-11-23T12:28:09+00:00",
       "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request ",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-75ea09ea3e752e02",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "publisher": "CISA",
-      "date": "2026-11-23T12:00:00+00:00",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Serv",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-a773d1480455adf1",
-      "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
-      "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-23T11:35:15+00:00",
-      "summary": "Threat actors could exploit them to leak or modify server information and to execute commands as root. The post SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-659149ed49d822a8",
-      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
-      "publisher": "The Hacker News",
-      "date": "2026-11-23T09:11:56+00:00",
-      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-8dee64bf666c5ac0",
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "publisher": "The Hacker News",
-      "date": "2026-11-23T09:04:08+00:00",
-      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company iden",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
