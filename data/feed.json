@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-25T22:31:16.730434+00:00",
+  "updated_at": "2026-11-26T05:02:35.290199+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-8720d53f46442204",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-26T03:48:52+00:00",
+      "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-3668d7ed9e523305",
       "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
@@ -590,16 +600,6 @@
       "publisher": "BleepingComputer",
       "date": "2026-11-21T14:26:04+00:00",
       "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-2ac19622335dbd7a",
-      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-21T12:08:50+00:00",
-      "summary": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek .",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
