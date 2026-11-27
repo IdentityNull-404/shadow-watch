@@ -1,8 +1,58 @@
 {
-  "updated_at": "2026-11-26T23:52:21.841553+00:00",
+  "updated_at": "2026-11-27T08:30:21.600003+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-553e4237c00d66bc",
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-27T08:06:58+00:00",
+      "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-ae2c9dfba41e1efb",
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-27T07:44:49+00:00",
+      "summary": "A vulnerability in hex.pm allowed hackers to run commands on web servers. No evidence of data modification was found, but database reads are not logged. The post Hex Package Manager Warns of Potential Data Breach appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-0434c971935f3bbd",
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+      "publisher": "SecurityWeek",
+      "date": "2026-11-27T07:36:14+00:00",
+      "summary": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code. The post SAP Confirms Cyberattack, Source Code Reportedly Compromised appeared first on SecurityWeek .",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-979e934b372966d4",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-27T06:04:20+00:00",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure ",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-27f1645ed04a4e7e",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-27T05:48:20+00:00",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been trac",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-08c326dd24dcd490",
       "title": "Fake paid expert interviews impersonate brands to steal Google logins",
@@ -552,56 +602,6 @@
       "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
       "status": "Developing / unverified lead",
       "potential_duplicate": true
-    },
-    {
-      "id": "story-dc0bf632906413a2",
-      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
-      "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-23T15:47:40+00:00",
-      "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": true
-    },
-    {
-      "id": "story-e41ccef1ec479ff7",
-      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
-      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-23T15:06:49+00:00",
-      "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-508496655d9b1339",
-      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-23T13:26:22+00:00",
-      "summary": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-2da724996ccb9ddb",
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "publisher": "The Hacker News",
-      "date": "2026-11-23T12:41:04+00:00",
-      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to t",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-89ef724f9ef49976",
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-      "publisher": "The Hacker News",
-      "date": "2026-11-23T12:28:09+00:00",
-      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request ",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
     }
   ]
 }
