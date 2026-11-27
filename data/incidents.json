@@ -1,5 +1,19 @@
 [
   {
+    "id": "usaf-cloud-one-reported-intrusion-2026-11-27",
+    "date": "2026-11-27",
+    "title": "Reuters reports intrusion into U.S. Air Force Cloud One platform",
+    "organization": "U.S. Air Force",
+    "sector": "U.S. government / Defense / Cloud services",
+    "type": "Developing report",
+    "severity": "high",
+    "summary": "Reuters reported November 27 that an intrusion was discovered during a system upgrade within the preceding month; exact event date is undisclosed. Application migrations and updates were reportedly paused and some administrative privileges revoked. A source described exploitation of a software vulnerability to access the control plane. The Air Force declined to discuss specific system security. Data theft, scope and actor remain unknown.",
+    "source": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+    "sourceName": "Reuters, November 27, 2026",
+    "confidence": "Credible reporting; no public agency confirmation or technical indicators in the report. Date is reporting date.",
+    "connection": "Cloud One uses Microsoft, Amazon, Oracle and Alphabet services, but no specific provider compromise, matching IOC, shared vulnerability or link to November outages is established."
+  },
+  {
     "id": "hexpm-registry-intrusion-2026-11-23",
     "date": "2026-11-23",
     "title": "Hex.pm confirms compromise of six package registry servers",
