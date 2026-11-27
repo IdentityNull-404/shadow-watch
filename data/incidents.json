@@ -1,5 +1,19 @@
 [
   {
+    "id": "hexpm-registry-intrusion-2026-11-23",
+    "date": "2026-11-23",
+    "title": "Hex.pm confirms compromise of six package registry servers",
+    "organization": "Hex.pm",
+    "sector": "Software supply chain",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Vendor disclosed November 24 that CVE-2026-129514 was exploited on November 23. Six servers were affected and patched within 20 minutes. No evidence of package modification or persistent access; database reads were not logged, so exposure of account data and private packages cannot be excluded. Users should change passwords, reset 2FA, use only repo.hex.pm and update the client when the new signing system is released.",
+    "source": "https://hex.pm/blog/security-incident-on-hexpm",
+    "sourceName": "Hex official incident disclosure, November 24, 2026",
+    "confidence": "High for intrusion; data theft and package tampering not established.",
+    "connection": "No verified technical connection to monitored November outages or other supply-chain intrusions."
+  },
+  {
     "id": "1password-backend-intrusion-2026-11-19",
     "date": "2026-11-19",
     "title": "1Password confirms backend intrusion via compromised employee GitHub account",
@@ -226,12 +240,17 @@
     "sector": "Cloud services / Managed Kubernetes",
     "type": "Confirmed cyberattack",
     "severity": "high",
-    "summary": "According to a Rackspace customer notification obtained by BleepingComputer on November 21, an unauthorized party used leaked credentials to access Rackspace Spot on November 17, 2026, approximately 00:20–22:00 UTC. The intruders could impersonate legitimate users in some customer organizations, create unauthorized Kubernetes pods, read Kubernetes Secrets and enumerate nodes and volumes. Rackspace warned that affected users' stored secrets, API tokens and refresh tokens could have been accessed; the number of impacted customers and whether data was exfiltrated remain unknown. Rackspace learned of the intrusion November 18, revoked affected sessions and tokens, removed unauthorized pods, and temporarily disabled the Spot management console during remediation. Service was reportedly restored November 21. Affected customers should reissue Spot API and refresh tokens, obtain fresh kubeconfigs, rotate credentials in Kubernetes Secrets and inspect downstream service logs since November 17. Reported indicators: 23.224.79.106, 23.224.0.0/15, and suspicious Kubernetes object prefixes i1, glm-, probe.",
+    "summary": "According to a Rackspace customer notification obtained by BleepingComputer on November 21, an unauthorized party used leaked credentials to access Rackspace Spot on November 17, 2026, approximately 00:20–22:00 UTC. The intruders could impersonate legitimate users in some customer organizations, create unauthorized Kubernetes pods, read Kubernetes Secrets and enumerate nodes and volumes. Rackspace warned that affected users' stored secrets, API tokens and refresh tokens could have been accessed; the number of impacted customers and whether data was exfiltrated remain unknown. Rackspace learned of the intrusion November 18, revoked affected sessions and tokens, removed unauthorized pods, and temporarily disabled the Spot management console during remediation. Service was reportedly restored November 21. Affected customers should reissue Spot API and refresh tokens, obtain fresh kubeconfigs, rotate credentials in Kubernetes Secrets and inspect downstream service logs since November 17. Reported indicators: 23.224.79.106, 23.224.0.0/15, and suspicious Kubernetes object prefixes i1, glm-, probe. November 24 follow-up: Rackspace plans permanent Spot shutdown December 8 at 5 p.m. Central (6 p.m. Eastern). All Spot customers should treat credentials as potentially compromised, migrate workloads and export data before their notified deadline; review logs from November 16.",
     "source": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
     "sourceName": "BleepingComputer, November 21, 2026, quoting Rackspace customer notification",
     "confidence": "High for unauthorized access and remediation as described in Rackspace customer notice; exfiltration, number of affected customers and attacker identity unknown",
     "connection": "The multi-day Rackspace Spot management-console outage was a deliberate containment action following this intrusion. No verified shared attacker, exploited vulnerability or matching indicators connect it to the November Microsoft 365, FAA, Chase, United Airlines, NSANet or Optimizely incidents.",
-    "additionalSources": []
+    "additionalSources": [
+      {
+        "name": "SC Media, November 25, citing customer notice",
+        "url": "https://www.scworld.com/brief/rackspace-to-shut-down-spot-cloud-platform-following-security-breach"
+      }
+    ]
   },
   {
     "id": "microsoft-entra-connect-health-metadata-breach-2026-11",
