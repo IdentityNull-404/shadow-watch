@@ -1,5 +1,29 @@
 [
   {
+    "id": "1password-backend-intrusion-2026-11-19",
+    "date": "2026-11-19",
+    "title": "1Password confirms backend intrusion via compromised employee GitHub account",
+    "organization": "1Password",
+    "sector": "Cloud services / Identity security / Software supply chain",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Investigation began November 19; vendor disclosed November 25 and clarified November 26 that independent assessment continues. An attacker accessed an employee corporate GitHub account, copied source code, accessed CI/CD and deployed malicious backend code that copied limited customer account metadata, including names, emails and some invitation or recovery tokens. Vendor reports no vault contents, vault protection keys or client apps compromised and no evidence of account takeover using exposed provisioning tokens. Customers should avoid unsolicited recovery or invitation links and use the official app or site. No blanket password reset is recommended by the vendor.",
+    "source": "https://1password.com/blog/update-on-nov-2026-security-incident",
+    "sourceName": "1Password vendor disclosure, November 25, 2026",
+    "confidence": "High for vendor-confirmed intrusion; independent scope validation ongoing.",
+    "connection": "Compromised development credentials and CI/CD access represent supply-chain risk; no evidence of a compromised client release or technical link to the monitored November outages or Optimizely. No Michigan-specific impact established.",
+    "additionalSources": [
+      {
+        "name": "1Password official community update, November 26",
+        "url": "https://www.1password.community/announcements-52/update-on-a-security-incident-involving-1password-s-backend-systems-customer-vaults-were-not-affected-and-all-vault-contents-remain-secure-26259/index1.html"
+      },
+      {
+        "name": "Help Net Security, November 26",
+        "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/"
+      }
+    ]
+  },
+  {
     "id": "juniper-session-smart-exploitation-2026-11-25",
     "date": "2026-11-25",
     "title": "Reported active exploitation of critical Juniper Session Smart Conductor vulnerability",
