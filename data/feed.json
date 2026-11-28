@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-27T18:58:15.658922+00:00",
+  "updated_at": "2026-11-28T01:58:48.751106+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-e522b3c7e5486b06",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-27T19:26:04+00:00",
+      "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-9e1e908954fec772",
       "title": "New Boston Scientific data breach exposes personal, medical info",
@@ -50,6 +60,16 @@
       "publisher": "BleepingComputer",
       "date": "2026-11-27T14:22:06+00:00",
       "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services. [.",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-a939823268298b23",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "publisher": "CISA",
+      "date": "2026-11-27T12:00:00+00:00",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulner",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     },
@@ -580,26 +600,6 @@
       "publisher": "SecurityWeek",
       "date": "2026-11-24T14:49:59+00:00",
       "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-af1c110fcab14c58",
-      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
-      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-24T14:21:56+00:00",
-      "summary": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries. The post Check Point Security Management Servers Hacked in AI-Assisted Campaign appeared first on SecurityWeek .",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": true
-    },
-    {
-      "id": "story-555a417fb4d59953",
-      "title": "McDonald's Japan data breach exposes customer location information",
-      "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information",
-      "publisher": "BleepingComputer",
-      "date": "2026-11-24T14:09:37+00:00",
-      "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
