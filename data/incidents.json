@@ -1,5 +1,49 @@
 [
   {
+    "id": "booba-water-local-government-2026-11",
+    "date": "2026-11-24",
+    "title": "Booba ransomware spreads from water facility to local government network",
+    "organization": "Undisclosed U.S. East Coast water facility / local government",
+    "sector": "Water infrastructure / Local government",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "ThreatDown incident response report disclosed November 24 and specialist coverage November 27 describe ransomware spreading between networks managed by separate IT providers. Three machines reportedly encrypted and 48 isolated. Exact incident date, initial access and actor unknown. Entry date is disclosure date. No verified water treatment disruption or contamination.",
+    "source": "https://www.threatdown.com/blog/ransomware-water-plant-local-government/",
+    "sourceName": "ThreatDown incident response report, November 24",
+    "confidence": "Incident response reporting; operational impact and attribution unknown.",
+    "connection": "No verified link to monitored November outages or Optimizely.",
+    "additionalSources": [
+      {
+        "name": "Industrial Cyber, November 27",
+        "url": "https://industrialcyber.co/threats-attacks/booba-ransomware-spreads-from-us-water-treatment-plant-to-local-government-network-exposing-it-ot-network-security-gap/"
+      }
+    ]
+  },
+  {
+    "id": "boston-scientific-cloud-vishing-2026-05-07",
+    "date": "2026-05-07",
+    "title": "Boston Scientific notifies individuals of May cloud data breach",
+    "organization": "Boston Scientific",
+    "sector": "Healthcare / Medical technology / Cloud services",
+    "type": "Confirmed cyberattack",
+    "severity": "high",
+    "summary": "Unauthorized access and data downloads occurred May 7–12, 2026 through voice phishing. The company detected potential unauthorized access May 12 and determined on November 5 that personal information was involved. California notification filed November 25; specialist coverage November 27. Potentially exposed data varies by individual and may include contact, medical and identity information. The company reports no impact to connected devices, remote monitoring or product safety. Published victim counts conflict and are not treated as verified.",
+    "source": "https://oag.ca.gov/system/files/BSCI%20-%20California%20Notification.pdf",
+    "sourceName": "Boston Scientific breach notification filed with California Attorney General",
+    "confidence": "High for company-disclosed intrusion; total affected and attribution unresolved.",
+    "connection": "No verified link to November infrastructure outages or Optimizely. No Michigan-specific victim count established.",
+    "additionalSources": [
+      {
+        "name": "California Attorney General breach register, November 25",
+        "url": "https://oag.ca.gov/privacy/databreach/list"
+      },
+      {
+        "name": "BleepingComputer, November 27",
+        "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/"
+      }
+    ]
+  },
+  {
     "id": "usaf-cloud-one-reported-intrusion-2026-11-27",
     "date": "2026-11-27",
     "title": "Reuters reports intrusion into U.S. Air Force Cloud One platform",
