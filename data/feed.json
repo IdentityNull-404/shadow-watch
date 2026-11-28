@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-28T01:58:48.751106+00:00",
+  "updated_at": "2026-11-28T10:26:32.275207+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-98be6a877e816947",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "publisher": "The Hacker News",
+      "date": "2026-11-28T08:08:11+00:00",
+      "summary": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pClou",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-e522b3c7e5486b06",
       "title": "pCloud confirms password manager hack after suspicious login alerts",
@@ -21,7 +31,7 @@
       "date": "2026-11-27T18:57:42+00:00",
       "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
       "status": "Developing / unverified lead",
-      "potential_duplicate": false
+      "potential_duplicate": true
     },
     {
       "id": "story-dc478ba580bb8630",
@@ -590,16 +600,6 @@
       "publisher": "BleepingComputer",
       "date": "2026-11-24T15:01:11+00:00",
       "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce v",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-83b3c7e4cb54cd10",
-      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
-      "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation",
-      "publisher": "SecurityWeek",
-      "date": "2026-11-24T14:49:59+00:00",
-      "summary": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October. The post European Commission Uncovers Data Breach in Cyberattack Investigation appeared first on SecurityWeek .",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
