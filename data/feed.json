@@ -1,8 +1,28 @@
 {
-  "updated_at": "2026-11-28T10:26:32.275207+00:00",
+  "updated_at": "2026-11-28T18:57:09.163604+00:00",
   "sources_available": 4,
   "sources_total": 4,
   "items": [
+    {
+      "id": "story-db9e1de7767d7da0",
+      "title": "College Board confirms data breach after unauthorized password changes",
+      "url": "https://www.bleepingcomputer.com/news/security/college-board-confirms-data-breach-after-unauthorized-password-changes",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-28T17:45:59+00:00",
+      "summary": "College Board has confirmed it suffered a data breach after students reported unexpected password changes on Thanksgiving, and the organization said threat actors gained access to its account registration and financial aid application systems. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
+    {
+      "id": "story-6be3124bcdc031e1",
+      "title": "Q-Dir and DesktopOK Windows utilities compromised to push Python RAT",
+      "url": "https://www.bleepingcomputer.com/news/security/q-dir-and-desktopok-windows-utilities-compromised-to-push-python-rat",
+      "publisher": "BleepingComputer",
+      "date": "2026-11-28T15:32:49+00:00",
+      "summary": "Official distribution channels for the Q-Dir and DesktopOK Windows utilities were compromised to deliver trojanized installers containing Python-based remote access malware. [...]",
+      "status": "Developing / unverified lead",
+      "potential_duplicate": false
+    },
     {
       "id": "story-98be6a877e816947",
       "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
@@ -580,26 +600,6 @@
       "publisher": "BleepingComputer",
       "date": "2026-11-24T16:22:44+00:00",
       "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-67f9828a04861257",
-      "title": "Hackers compromise Check Point Servers in 22 organizations",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations",
-      "publisher": "BleepingComputer",
-      "date": "2026-11-24T16:15:23+00:00",
-      "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
-      "status": "Developing / unverified lead",
-      "potential_duplicate": false
-    },
-    {
-      "id": "story-3fd6fb22513b5c1d",
-      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-      "url": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era",
-      "publisher": "BleepingComputer",
-      "date": "2026-11-24T15:01:11+00:00",
-      "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container hardening, and automated remediation can reduce v",
       "status": "Developing / unverified lead",
       "potential_duplicate": false
     }
